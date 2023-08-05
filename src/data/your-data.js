@@ -127,7 +127,8 @@ export const resumeDataDummy = {
                 "phpMyAdmin",
                 "Wonde API"
                 // Add more technologies as needed
-            ]
+            ],
+            "iconClass": "devicon-nextjs-original"
         },
         {
             "company": "Unknown Company",
@@ -149,7 +150,9 @@ export const resumeDataDummy = {
                 "React Bootstrap",
                 "Antd"
                 // Add more technologies as needed
-            ]
+            ],
+
+            "iconClass": "devicon-react-original"
         },
         {
             "company": "Clomotech",
@@ -167,7 +170,8 @@ export const resumeDataDummy = {
                 "moment.js",
                 "Fontawesome"
                 // Add more technologies as needed
-            ]
+            ],
+            "iconClass": "devicon-angularjs-plain"
         },
         {
             "company": "DA-IICT",
@@ -181,7 +185,8 @@ export const resumeDataDummy = {
                 "Dynamic Programming",
                 "Chomsky Normal Form (CNF)"
                 // Add more technologies as needed
-            ]
+            ],
+            "iconClass": "devicon-cplusplus-plain"
         }
         // Add more experience entries as needed
     ]
