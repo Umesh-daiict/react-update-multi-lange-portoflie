@@ -64,24 +64,31 @@ const App = () => {
         >
           <span
             className="iconify language-icon mr-5"
+            data-icon="twemoji:flag-india"
+            data-inline="false"
+            id={window.$secondaryLanguageIconId}
+            ref={secondaryLanguageIconIdRef}
+          ></span>
+
+          {/* <span
+            className="iconify language-icon mr-5"
             data-icon="twemoji-flag-for-flag-united-kingdom"
             data-inline="false"
             id={window.$primaryLanguageIconId}
             ref={primaryLanguageIconIdRef}
-          ></span>
+          ></span> */}
         </div>
         <div
           onClick={() =>
             applyPickedLanguage(window.$secondaryLanguage, primaryLanguageIconIdRef.current)
           }
           style={{ display: "inline" }}
-        >
-          <span
-            className="iconify language-icon"
-            data-icon="twemoji-flag-for-flag-poland"
+        ><span
+          className="iconify language-icon"
+            data-icon="twemoji-flag-for-flag-united-kingdom"
             data-inline="false"
-            id={window.$secondaryLanguageIconId}
-            ref={secondaryLanguageIconIdRef}
+            id={window.$primaryLanguageIconId}
+            ref={primaryLanguageIconIdRef}
           ></span>
         </div>
       </div>

@@ -1,7 +1,8 @@
 export const resumeDataDummy = {
     "basic_info": {
+        "dev_name": 'Umesh Savaliya',
         "description_header": "Hi",
-        "description": "👋 I'm Umesh Savaliya. I'm a Software Developer with experience in working with front-end frameworks like React, Angular, and TypeScript. I have a passion for creating user-friendly web applications and solving complex problems. Feel free to reach out to me at +91 9904130013 or umeshsavaliya007@gmail.com. You can also find me on LinkedIn at linkedin.com/in/umesh-savaliya and check out my GitHub at github.com/Umesh-daiict. Thank you! 💜",
+        "description": "👋 I'm Umesh Savaliya. I'm a Software Developer with experience in working with front-end frameworks like React, Angular, and TypeScript. I have a passion for creating user-friendly web applications and solving complex problems. Feel free to reach out to me at  umeshsavaliya777@gmail.com. You can also find me on LinkedIn at linkedin.com/in/umesh-savaliya and check out my GitHub at github.com/Umesh-daiict. Thank you! 💜",
         "section_name": {
             "about": "About me",
             "projects": "Projects",
@@ -148,11 +149,12 @@ export const resumeDataDummy = {
                 "Material-UI",
                 "Formik",
                 "React Bootstrap",
-                "Antd"
+                "Antd",
+                "CI/CD"
                 // Add more technologies as needed
             ],
 
-            "iconClass": "devicon-react-original"
+            "iconClass": "fab fa-react fa-spin mx-auto"
         },
         {
             "company": "Clomotech",
@@ -196,7 +198,7 @@ export const resumeDataDummy = {
 export const sharedDataDummy = {
     "basic_info": {
         "name": "Umesh Savaliya",
-        "titles": ["Software Developer", "React Enthusiast", "Tech Enthusiast"],
+        "titles": ["Software  Developer", "Programming  Enthusiast", "Tech  Enthusiast", "Web  Dev"],
         "social": [
             {
                 "name": "github",
