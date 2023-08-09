@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.scss";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -6,89 +6,59 @@ import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-import { sharedDataDummy } from "./data/your-data";
-import { resumeDataDummy } from "./data/your-data";
+import { sharedDataDummy, sharedDataDummyHindi, resumeDataDummy, resumeDataDummyHindi } from "./data/your-data";
+
 
 const App = () => {
   const [resumeData, setResumeData] = useState({});
   const [sharedData, setSharedData] = useState({});
-  const primaryLanguageIconIdRef = useRef(null);
-  const secondaryLanguageIconIdRef = useRef(null);
+  const [pickLang, setPickLang] = useState(false);//false = eng
 
-  const applyPickedLanguage = (pickedLanguage, oppositeLangIconId) => {
-    swapCurrentlyActiveLanguage(oppositeLangIconId);
-    document.documentElement.lang = pickedLanguage;
-    const resumePath =
-      document.documentElement.lang === window.$primaryLanguage
-        ? `res_primaryLanguage.json`
-        : `res_secondaryLanguage.json`;
-    loadResumeFromPath(resumePath);
-  };
 
-  const swapCurrentlyActiveLanguage = (oppositeLangIconId) => {
-    const pickedLangIconId =
-      oppositeLangIconId === primaryLanguageIconIdRef.current
-        ? secondaryLanguageIconIdRef.current
-        : primaryLanguageIconIdRef.current;
-
-    if (document.getElementById(oppositeLangIconId)) {
-      document.getElementById(oppositeLangIconId).removeAttribute("filter", "brightness(40%)");
-    }
-    if (document.getElementById(pickedLangIconId)) {
-      document.getElementById(pickedLangIconId).setAttribute("filter", "brightness(40%)");
+  const loadSharedDataWithLang = () => {
+    if (pickLang) {
+      setResumeData(resumeDataDummyHindi);
+      setSharedData(sharedDataDummyHindi);
+      console.log('22222222');
+    } else {
+      setResumeData(resumeDataDummy);
+      setSharedData(sharedDataDummy);
     }
   };
 
-  const loadResumeFromPath = () => {
-    setResumeData(resumeDataDummy)
-  };
+  // const swapCurrentlyActiveLanguage = (oppositeLangIconId) => {
+    //make it more brite
+  // };
 
-  const loadSharedData = () => {
-    setSharedData(sharedDataDummy)
-  };
+
 
   useEffect(() => {
-    loadSharedData();
-    applyPickedLanguage(window.$primaryLanguage, secondaryLanguageIconIdRef.current);
-  }, []);
+    loadSharedDataWithLang();
+    console.log('caaaaaaaaaaa');
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [pickLang]);
 
   return (
     <div>
       <Header sharedData={sharedData.basic_info} />
       <div className="col-md-12 mx-auto text-center language">
         <div
-          onClick={() =>
-            applyPickedLanguage(window.$primaryLanguage, secondaryLanguageIconIdRef.current)
-          }
           style={{ display: "inline" }}
+          onClick={() => setPickLang(true)}
         >
           <span
             className="iconify language-icon mr-5"
             data-icon="twemoji:flag-india"
             data-inline="false"
-            id={window.$secondaryLanguageIconId}
-            ref={secondaryLanguageIconIdRef}
           ></span>
-
-          {/* <span
-            className="iconify language-icon mr-5"
-            data-icon="twemoji-flag-for-flag-united-kingdom"
-            data-inline="false"
-            id={window.$primaryLanguageIconId}
-            ref={primaryLanguageIconIdRef}
-          ></span> */}
         </div>
         <div
-          onClick={() =>
-            applyPickedLanguage(window.$secondaryLanguage, primaryLanguageIconIdRef.current)
-          }
+          onClick={() => setPickLang(false)}
           style={{ display: "inline" }}
         ><span
           className="iconify language-icon"
             data-icon="twemoji-flag-for-flag-united-kingdom"
             data-inline="false"
-            id={window.$primaryLanguageIconId}
-            ref={primaryLanguageIconIdRef}
           ></span>
         </div>
       </div>
