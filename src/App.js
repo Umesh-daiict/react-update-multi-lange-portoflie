@@ -19,7 +19,6 @@ const App = () => {
     if (pickLang) {
       setResumeData(resumeDataDummyHindi);
       setSharedData(sharedDataDummyHindi);
-      console.log('22222222');
     } else {
       setResumeData(resumeDataDummy);
       setSharedData(sharedDataDummy);
@@ -34,7 +33,6 @@ const App = () => {
 
   useEffect(() => {
     loadSharedDataWithLang();
-    console.log('caaaaaaaaaaa');
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pickLang]);
 
@@ -43,20 +41,20 @@ const App = () => {
       <Header sharedData={sharedData.basic_info} />
       <div className="col-md-12 mx-auto text-center language">
         <div
-          style={{ display: "inline" }}
+          className={`language-option mr-5 ${pickLang ? "active" : ""}`}
           onClick={() => setPickLang(true)}
         >
           <span
-            className="iconify language-icon mr-5"
+            className="iconify language-icon"
             data-icon="twemoji:flag-india"
             data-inline="false"
           ></span>
         </div>
         <div
           onClick={() => setPickLang(false)}
-          style={{ display: "inline" }}
+          className={`language-option ${pickLang ? "" : "active"}`}
         ><span
-          className="iconify language-icon"
+            className="iconify language-icon"
             data-icon="twemoji-flag-for-flag-united-kingdom"
             data-inline="false"
           ></span>
