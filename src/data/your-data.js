@@ -15,7 +15,7 @@ export const resumeDataDummy = {
             "title": "Fudu",
             "startDate": "Jan. 2023",
             "description": "Collaborated closely with UI/UX designers to translate design mockups and wireframes into pixel-perfect frontend implementations with Mobile Responsive Web App to be used by Restaurant Owners to grow their business. Integrated third-party APIs and libraries, such as Google Maps, social media integrations (Apple and Google Login), seamlessly into the frontend, expanding the project’s functionalities and enhancing Restaurant Owner engagement to its customers. Implemented robust testing strategies, including unit testing using Jest and Enzyme, to ensure the reliability and stability of the frontend codebase, resulting in a more robust and bug-free application.",
-            "images": [],
+            "images": [require('../assets/images/portfolio/project-img/p1/1.jpg'), require('../assets/images/portfolio/project-img/p1/2.jpg')],
             "url": "",
             "technologies": [
                 {
@@ -46,7 +46,7 @@ export const resumeDataDummy = {
             "startDate": "Jul. 2022",
             "endDate": "Feb. 2023",
             "description": "Worked as a software developer on a platform designed to safeguard students’ mental health. Contributed to the redesign of the platform to provide a better user experience. Implemented Redux States to manage application-wide state and reduced application load time to 1.5 seconds. Successfully migrated a medium-sized application from AngularJS to React within 3 months, despite limited resources due to unstable funding. Added features to manage student and teacher data, set permissions, and enable file upload/export capabilities for a school with a population of over 5000.",
-            "images": [],
+            "images": [require('../assets/images/portfolio/project-img/p2/1.jpg'), require('../assets/images/portfolio/project-img/p2/2.jpg')],
             "url": "",
             "technologies": [
                 {
@@ -81,7 +81,7 @@ export const resumeDataDummy = {
             "startDate": "March 2021",
             "endDate": "Sep. 2021",
             "description": "As a software developer, I worked on the IFFCO-TOKIO app which offered policyholders the ability to buy and renew motor, health, travel, home, and trade insurance policies. Implemented forms and document verification features to manage twice the amount of documents compared to the previous version, improving the overall efficiency of the app. Developed and maintained the policy management validation process, streamlined the document management process, and reduced 3000 lines of code from the codebase to enhance the overall user experience.",
-            "images": [],
+            "images": [require('../assets/images/portfolio/project-img/p3/1.jpg'), require('../assets/images/portfolio/project-img/p3/2.jpg')],
             "url": "",
             "technologies": [
                 {
