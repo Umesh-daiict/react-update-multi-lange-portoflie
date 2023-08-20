@@ -31,18 +31,55 @@ const About = (props) => {
           <div className="col-md-4 mb-5 center">
             <div className="polaroid">
               <span style={{ cursor: "auto" }}>
+                <div>
                 <img height="250px" width={'350px'} src={profilePic} alt="Avatar placeholder" />
                 <p style={{ cursor: "auto", paddingTop: '10px', color: '', }} className="wave">{devName}</p>
                 <Icon icon={angularIcon} style={{ fontSize: "400%", margin: "9% 5% 0 5%" }} />
+                  <p
+                    className="text-center"
+                    style={{ color: 'black', fontSize: '18px', marginTop: "4px" }}
+                  >
+                    Angular
+                  </p>
+                </div>
+                <div>
                 <Icon icon={reactIcon} style={{ fontSize: "400%", margin: "9% 5% 0 5%" }} />
-                <Icon icon={nodeJsIcon} style={{ fontSize: "400%", margin: "9% 5% 0 5%" }} />
-                <Icon icon={JsIcon} style={{ fontSize: "400%", margin: "9% 5% 0 5%" }} />
-                <Icon icon={typeIcon} style={{ fontSize: "400%", margin: "9% 5% 0 5%" }} />
+                  <p
+                    className="text-center"
+                    style={{ color: 'black', fontSize: '18px', marginTop: "4px" }}
+                  >
+                    Angular
+                  </p>
+                </div>
+                <div> <Icon icon={nodeJsIcon} style={{ fontSize: "400%", margin: "9% 5% 0 5%" }} />
+                  <p
+                    className="text-center"
+                    style={{ color: 'black', fontSize: '18px', marginTop: "4px" }}
+                  >
+                    Angular
+                  </p>
+                </div>
+                <div> <Icon icon={JsIcon} style={{ fontSize: "400%", margin: "9% 5% 0 5%" }} />
+                  <p
+                    className="text-center"
+                    style={{ color: 'black', fontSize: '18px', marginTop: "4px" }}
+                  >
+                    Angular
+                  </p>
+                </div>
+                <div> <Icon icon={typeIcon} style={{ fontSize: "400%", margin: "9% 5% 0 5%" }} />
+                  <p
+                    className="text-center"
+                    style={{ color: 'black', fontSize: '18px', marginTop: "4px" }}
+                  >
+                    Angular
+                  </p>
+                </div>
               </span>
             </div>
+            <div>
           </div>
 
-          <div className="col-md-8 center">
             <div className="col-md-10">
               <div className="card">
                 <div className="card-header">
