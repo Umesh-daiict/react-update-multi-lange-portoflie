@@ -191,6 +191,22 @@ header h1 {
 	z-index: 0;
 	position: relative;
 }
+@media (max-width: 768px) {
+	.polaroid span {
+		margin: 20px 0;
+	}
+}
+
+/* Adjust spacing between skill items */
+@media (min-width: 992px) {
+	.polaroid .row {
+		margin: -15px;
+	}
+
+	.polaroid .col {
+		padding: 15px;
+	}
+}
 
 .link-href {
 	color: black;
