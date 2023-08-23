@@ -6,7 +6,7 @@ import nodeJsIcon from '@iconify/icons-logos/nodejs-icon';
 import profilePic from '../assets/images/myProfile.jpg';
 import JsIcon from '@iconify/icons-logos/javascript';
 import typeIcon from '@iconify/icons-logos/typescript-icon';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 
 const About = (props) => {
   let sectionName = '';
@@ -51,7 +51,7 @@ const About = (props) => {
                     { id: 4, icon: JsIcon, title: 'Javascript' },
                     { id: 5, icon: typeIcon, title: 'Typescript' },
                   ].map((skill) => (
-                    <Col key={skill.id} xs={6} lg={4} className='mb-3'>
+                    <Col key={skill.id} xs={6} lg={4} className='mb-3 mt-3'>
                       <div className='text-center'>
                         <Icon icon={skill.icon} style={{ fontSize: '400%' }} />
                         <p className='mt-2' style={{ color: 'black', fontSize: '18px' }}>
