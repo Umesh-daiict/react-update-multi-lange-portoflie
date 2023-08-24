@@ -28,18 +28,19 @@ const About = (props) => {
           <span>{sectionName}</span>
         </h1>
         <div className='row center mx-auto mb-5'>
-          <div className='col-md-4 mb-5 center'>
-            <div className='polaroid'>
+          <div className='mb-5 row center'>
+            <div className='polaroid col-sm-12 col-md-6'>
               <span>
                 <img
                   height='250px'
                   width={'350px'}
                   src={profilePic}
+                  className='m-auto'
                   alt='Avatar placeholder'
                 />
                 <p
                   style={{ cursor: 'auto', paddingTop: '10px', color: '' }}
-                  className='wave'>
+                  className='wave text-xl'>
                   {devName}
                 </p>
 
@@ -54,7 +55,7 @@ const About = (props) => {
                     <Col key={skill.id} xs={6} lg={4} className='mb-3 mt-3'>
                       <div className='text-center'>
                         <Icon icon={skill.icon} style={{ fontSize: '400%' }} />
-                        <p className='mt-2' style={{ color: 'black', fontSize: '18px' }}>
+                        <p className='mt-2 text-lg text-dark'>
                           {skill.title}
                         </p>
                       </div>
@@ -63,7 +64,7 @@ const About = (props) => {
                 </Row>
               </span>
             </div>
-            <div className='col-md-10'>
+            <div className='col-sm-12 col-md-6'>
               <div className='card'>
                 <div className='card-header'>
                   <span

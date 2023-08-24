@@ -49,10 +49,8 @@ const Experience = (props) => {
                   background: "#AE944F",
                   color: "#fff",
                   textAlign: "center",
-                  padding: 'calc(1% - 0.5vw )',
-                  fontSize: 'calc(1.7rem + 77% + 0.7vw)'
                 }}
-                icon={<i className={work.iconClass} style={{ fontSize: '100%' }}></i>}
+                icon={<i className={work.iconClass}></i>}
                 key={i}
               >
                 <div style={{ textAlign: "left", marginBottom: "4px" }}>
