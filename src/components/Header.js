@@ -12,9 +12,9 @@ const Header = (props) => {
   }, []);
 
   const setTheme = () => {
-    var dataThemeAttribute = "data-theme";
-    var body = document.body;
-    var newTheme =
+    const dataThemeAttribute = "data-theme";
+    const body = document.body;
+    const newTheme =
       body.getAttribute(dataThemeAttribute) === "dark" ? "light" : "dark";
     body.setAttribute(dataThemeAttribute, newTheme);
   };

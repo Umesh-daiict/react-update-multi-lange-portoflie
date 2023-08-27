@@ -7,6 +7,7 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import { sharedDataDummy, sharedDataDummyHindi, resumeDataDummy, resumeDataDummyHindi } from "./data/your-data";
+import Connect from "./components/connect";
 
 
 const App = () => {
@@ -24,12 +25,6 @@ const App = () => {
       setSharedData(sharedDataDummy);
     }
   };
-
-  // const swapCurrentlyActiveLanguage = (oppositeLangIconId) => {
-    //make it more brite
-  // };
-
-
 
   useEffect(() => {
     loadSharedDataWithLang();
@@ -64,6 +59,7 @@ const App = () => {
       <Projects resumeProjects={resumeData.projects} resumeBasicInfo={resumeData.basic_info} />
       <Skills sharedSkills={sharedData.skills} resumeBasicInfo={resumeData.basic_info} />
       <Experience resumeExperience={resumeData.experience} resumeBasicInfo={resumeData.basic_info} />
+      <Connect />
       <Footer sharedBasicInfo={sharedData.basic_info} />
     </div>
   );
