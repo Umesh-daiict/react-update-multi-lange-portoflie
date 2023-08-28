@@ -30,7 +30,13 @@ const Header = (props) => {
   }, () => true);
 
   return (
-    <header id="home" style={{ height: window.innerHeight - 140, display: 'block' }}>
+    <>
+      <div style={{
+        position: "absolute",
+        right: '0',
+        zIndex: 1
+      }}>hiiiii- marqeee</div>
+      <header id="home" style={{ height: window.innerHeight - 140, display: 'block' }}>
       <div className="row aligner" style={{ height: '100%' }}>
         <div className="col-md-12">
           <div>
@@ -97,7 +103,7 @@ const Header = (props) => {
         </div>
       </div>
     </header>
-  );
+    </>);
 };
 
 export default Header;
