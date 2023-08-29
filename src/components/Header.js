@@ -34,8 +34,17 @@ const Header = (props) => {
       <div style={{
         position: "absolute",
         right: '0',
-        zIndex: 1
-      }}>hiiiii- marqeee</div>
+        zIndex: 100,
+        width: "100%"
+      }}>
+        <marquee direction="right" height="40px" width="100%" scrollamount="5" onmouseover="this.stop();" onmouseout="this.start();">
+          <ul class="ticker-right">
+            <li>Lorem ipsum dolor sit <i class="fa fa-minus"></i></li>
+            <li>Duis autem vel eum iriure <i class="fa fa-minus"></i></li>
+            <li>Typi non habent claritatem <i class="fa fa-minus"></i></li>
+            <li>Mirum est notare </li>
+          </ul>
+        </marquee></div>
       <header id="home" style={{ height: window.innerHeight - 140, display: 'block' }}>
       <div className="row aligner" style={{ height: '100%' }}>
         <div className="col-md-12">

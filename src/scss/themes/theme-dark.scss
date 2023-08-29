@@ -5,7 +5,10 @@ body[data-theme="dark"] {
    .slider-tab {
       background-color: #8C8C8C;
    }
-
+   
+      .ticker-right {
+         color: white;
+      }
    .title-styles {
       color: white;
    }
@@ -46,11 +49,15 @@ body[data-theme="dark"] {
       }
       .polaroid span {
          background:  #6d6d6d;
+         color: white;
       }
       .card {
          background: #6d6d6d;
          color: white;
       }
+                                                p {
+                                                   color: white;
+                                                }
    }
 
    #portfolio {

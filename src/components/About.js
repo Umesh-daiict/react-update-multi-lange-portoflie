@@ -55,7 +55,7 @@ const About = (props) => {
                     <Col key={skill.id} xs={6} lg={4} className='mb-3 mt-3'>
                       <div className='text-center'>
                         <Icon icon={skill.icon} style={{ fontSize: '400%' }} />
-                        <p className='mt-2 text-lg text-dark'>
+                        <p className='mt-2 text-lg'>
                           {skill.title}
                         </p>
                       </div>
