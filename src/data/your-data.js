@@ -211,7 +211,8 @@ export const sharedDataDummy = {
                 "class": "fab fa-linkedin"
             }
         ],
-        "image": "myProfile.jpg"
+        "image": "myProfile.jpg",
+        "addScrollTextAtTop": ["Hire Me As Developer/Freelancer", "Turning ideas into innovative solutions", "Let's create something amazing together!"]
     },
     "skills": {
         "icons": [
@@ -478,7 +479,8 @@ export const sharedDataDummyHindi = {
                 "class": "fab fa-linkedin"
             }
         ],
-        "image": "मेरी प्रोफाइल.jpg"
+        "image": "मेरी प्रोफाइल.jpg",//bug
+        "addScrollTextAtTop": ["मुझे डेवलपर/फ्रीलांसर के रूप में भर्ती करें", "आइए हम साथ में कुछ अद्भुत बनाएं!"]
     },
     "skills": {
         "icons": [

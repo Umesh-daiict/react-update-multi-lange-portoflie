@@ -19,10 +19,11 @@ const Header = (props) => {
     body.setAttribute(dataThemeAttribute, newTheme);
   };
 
-  let titles = [], name = '';
+  let titles = [], name = '', marqueeText = [];
   if (sharedData) {
     name = sharedData.name;
     titles = sharedData.titles.map((x) => [x.toUpperCase(), 1500]).flat();
+    marqueeText = sharedData.addScrollTextAtTop;
   }
 
   const HeaderTitleTypeAnimation = React.memo(() => {
@@ -38,11 +39,11 @@ const Header = (props) => {
         width: "100%"
       }}>
         <marquee direction="right" height="40px" width="100%" scrollamount="5" onmouseover="this.stop();" onmouseout="this.start();">
-          <ul class="ticker-right">
-            <li>Lorem ipsum dolor sit <i class="fa fa-minus"></i></li>
-            <li>Duis autem vel eum iriure <i class="fa fa-minus"></i></li>
-            <li>Typi non habent claritatem <i class="fa fa-minus"></i></li>
-            <li>Mirum est notare </li>
+          <ul className="ticker-right">
+            {marqueeText.map((text, key) => {
+              return (<li key={key}> {text}  {key !== (marqueeText.length - 1) && <i className="fa fa-minus px-4"> </i>}</li>
+              );
+            })}
           </ul>
         </marquee></div>
       <header id="home" style={{ height: window.innerHeight - 140, display: 'block' }}>
