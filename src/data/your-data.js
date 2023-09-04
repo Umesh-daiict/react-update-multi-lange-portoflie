@@ -194,7 +194,6 @@ export const resumeDataDummy = {
     ]
 };
 
-
 export const sharedDataDummy = {
     "basic_info": {
         "name": "Umesh Savaliya",
@@ -211,7 +210,7 @@ export const sharedDataDummy = {
                 "class": "fab fa-linkedin"
             }
         ],
-        "image": "myProfile.jpg",
+        "image": require('../assets/images/myProfile.jpg'),
         "addScrollTextAtTop": ["Hire Me As Developer/Freelancer", "Turning ideas into innovative solutions", "Let's create something amazing together!"]
     },
     "skills": {
@@ -479,7 +478,7 @@ export const sharedDataDummyHindi = {
                 "class": "fab fa-linkedin"
             }
         ],
-        "image": "मेरी प्रोफाइल.jpg",//bug
+        "image": require('../assets/images/myProfile.jpg'),
         "addScrollTextAtTop": ["मुझे डेवलपर/फ्रीलांसर के रूप में भर्ती करें", "आइए हम साथ में कुछ अद्भुत बनाएं!"]
     },
     "skills": {

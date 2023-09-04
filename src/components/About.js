@@ -3,22 +3,25 @@ import { Icon } from '@iconify/react';
 import angularIcon from '@iconify/icons-logos/angular-icon';
 import reactIcon from '@iconify/icons-logos/react';
 import nodeJsIcon from '@iconify/icons-logos/nodejs-icon';
-import profilePic from '../assets/images/myProfile.jpg';
+
 import JsIcon from '@iconify/icons-logos/javascript';
 import typeIcon from '@iconify/icons-logos/typescript-icon';
-import { Col, Row } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 
 const About = (props) => {
   let sectionName = '';
   let hello = '';
   let about = '';
   let devName = '';
+  let profilePic = undefined;
 
   if (props.resumeBasicInfo) {
     sectionName = props.resumeBasicInfo.section_name.about;
     hello = props.resumeBasicInfo.description_header;
     about = props.resumeBasicInfo.description;
     devName = props.resumeBasicInfo.dev_name;
+    profilePic = props.sharedBasicInfo.image;
+
   }
 
   return (
@@ -43,8 +46,8 @@ const About = (props) => {
                   className='wave text-xl'>
                   {devName}
                 </p>
-
-                <Row>
+                <Container fluid>
+                  <Row className="justify-content-evenly">
                   {[
                     { id: 1, icon: angularIcon, title: 'Angular' },
                     { id: 2, icon: reactIcon, title: 'React' },
@@ -52,7 +55,7 @@ const About = (props) => {
                     { id: 4, icon: JsIcon, title: 'Javascript' },
                     { id: 5, icon: typeIcon, title: 'Typescript' },
                   ].map((skill) => (
-                    <Col key={skill.id} xs={6} lg={4} className='mb-3 mt-3'>
+                    <Col key={skill.id} >
                       <div className='text-center'>
                         <Icon icon={skill.icon} style={{ fontSize: '400%' }} />
                         <p className='mt-2 text-lg'>
@@ -61,7 +64,8 @@ const About = (props) => {
                       </div>
                     </Col>
                   ))}
-                </Row>
+                  </Row>
+                </Container>
               </span>
             </div>
             <div className='col-sm-12 col-md-6'>
