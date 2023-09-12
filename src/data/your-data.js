@@ -77,6 +77,37 @@ export const resumeDataDummy = {
             ]
         },
         {
+            "title": "Pocket Tax",
+            "startDate": "xxxx xxxx",
+            "endDate": "xxxx xxxx",
+            "description": "As a software developer,I worked on the Pocket Tax app, which offered a comprehensive suite of features for efficient tax filing and financial management.  The onboarding process was streamlined into three simple steps for user convenience, involving account creation, PAN card upload, and verification. I integrated authentication mechanisms, allowing users to sign up and log in via email or Google accounts. The platform boasts real-time financial management capabilities, including spendings tracking, investment analysis, and an interactive dashboard. To distinguish our service, I developed a pro account feature that optimizes tax savings and provides insights through past year analysis. User satisfaction is emphasized with a dedicated section for customer testimonials, fostering trust. Lastly, I maintained security at the forefront, implementing robust data protection measures. Overall, this project underscores my ability to create intuitive and secure web applications, catering to both user needs and the complexities of tax filing.",
+            "images": [require('../assets/images/portfolio/project-img/p4/1.png'), require('../assets/images/portfolio/project-img/p4/2.png')],
+            "url": "",
+            "technologies": [
+                {
+                    "class": "devicon-angularjs-plain",
+                    "name": "Angular"
+                },
+                {
+                    "class": "devicon-typescript-plain",
+                    "name": "TypeScript"
+                },
+                {
+                    "class": "devicon-angularmaterial-plain",
+                    "name": "Angular Material"
+                },
+                {
+                    "class": "devicon-reactrouter-plain",
+                    "name": "React-Router"
+                },
+                {
+                    "class": "devicon-rxjs-plain",
+                    "name": "RxJS"
+                }
+                // Add more technologies as needed
+            ]
+        },
+        {
             "title": "IFFCO Tokio",
             "startDate": "March 2021",
             "endDate": "Sep. 2021",
