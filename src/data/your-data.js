@@ -46,7 +46,7 @@ export const resumeDataDummy = {
             "startDate": "Jul. 2022",
             "endDate": "Feb. 2023",
             "description": "Worked as a software developer on a platform designed to safeguard students’ mental health. Contributed to the redesign of the platform to provide a better user experience. Implemented Redux States to manage application-wide state and reduced application load time to 1.5 seconds. Successfully migrated a medium-sized application from AngularJS to React within 3 months, despite limited resources due to unstable funding. Added features to manage student and teacher data, set permissions, and enable file upload/export capabilities for a school with a population of over 5000.",
-            "images": [require('../assets/images/portfolio/project-img/p2/1.jpg'), require('../assets/images/portfolio/project-img/p2/2.jpg')],
+            "images": [require('../assets/images/portfolio/project-img/p2/1.png'), require('../assets/images/portfolio/project-img/p2/2.png')],
             "url": "",
             "technologies": [
                 {
@@ -62,8 +62,8 @@ export const resumeDataDummy = {
                     "name": "Redux"
                 },
                 {
-                    "class": "devicon-reactrouter-plain",
-                    "name": "React-Router"
+                    "class": "devicon-postgresql-plain",
+                    "name": "PostgreSQL"
                 },
                 {
                     "class": "devicon-materialui-plain",
@@ -85,25 +85,21 @@ export const resumeDataDummy = {
             "url": "",
             "technologies": [
                 {
-                    "class": "devicon-angularjs-plain",
-                    "name": "Angular"
+                    "class": "devicon-react-original",
+                    "name": "React"
                 },
                 {
                     "class": "devicon-typescript-plain",
                     "name": "TypeScript"
                 },
                 {
-                    "class": "devicon-angularmaterial-plain",
-                    "name": "Angular Material"
+                    "class": "devicon-materialui-plain",
+                    "name": "Material-UI"
+                }, {
+                    "class": "devicon-jest-plain",
+                    "name": "Jest"
                 },
-                {
-                    "class": "devicon-reactrouter-plain",
-                    "name": "React-Router"
-                },
-                {
-                    "class": "devicon-rxjs-plain",
-                    "name": "RxJS"
-                }
+
                 // Add more technologies as needed
             ]
         },
@@ -344,7 +340,7 @@ export const resumeDataDummyHindi = {
             "startDate": "जुलाई 2022",
             "endDate": "फ़रवरी 2023",
             "description": "छात्रों के मानसिक स्वास्थ्य की सुरक्षा करने के लिए डिज़ाइन किए गए एक प्लेटफ़ॉर्म पर सॉफ़्टवेयर डेवलपर के रूप में काम किया। प्लेटफ़ॉर्म के पुनरावलोकन का योगदान दिया ताकि बेहतर उपयोगकर्ता अनुभव प्रदान किया जा सके। एप्लिकेशन-व्यापारिक राज्य का प्रबंधन करने के लिए रीडक्स स्टेट्स को लागू किया और एप्लिकेशन लोड समय को 1.5 सेकंड में कम किया। स्थिर वित्तपोषण के कारण संकुचित संसाधनों के बावजूद, 3 महीने के भीतर एक माध्यम आकार के एप्लिकेशन को एंगुलरजेएस से रीऐक्ट में सफलतापूर्वक प्रायोजित किया, जिसमें 5000 से अधिक छात्रों और शिक्षकों के डेटा का प्रबंधन करने के लिए विशेषताएँ जोड़ी गईं, अनुमतियों को सेट करने की अनुमति दी गई, और फ़ाइल अपलोड/निर्यात की क्षमताएँ सक्षम की गईं।",
-            "images": [require('../assets/images/portfolio/project-img/p2/1.jpg'), require('../assets/images/portfolio/project-img/p2/2.jpg')],
+            "images": [require('../assets/images/portfolio/project-img/p2/1.png'), require('../assets/images/portfolio/project-img/p2/2.png')],
             "url": "",
             "technologies": [
                 {
