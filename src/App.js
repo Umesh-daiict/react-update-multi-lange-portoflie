@@ -8,6 +8,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import { sharedDataDummy, sharedDataDummyHindi, resumeDataDummy, resumeDataDummyHindi } from "./data/your-data";
 import Connect from "./components/connect";
+import { Button } from "react-bootstrap";
 
 
 const App = () => {
@@ -30,6 +31,16 @@ const App = () => {
     loadSharedDataWithLang();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pickLang]);
+  const downloadFile = () => {
+    const fileURL = require('./assets/files/cv_2.pdf');
+    console.log(fileURL, process.env.PUBLIC_URL
+    );
+    const link = document.createElement('a');
+    link.href = fileURL;
+    link.download = 'cv_2.pdf';
+
+    link.click();
+  };
 
   return (
     <div>
@@ -54,6 +65,7 @@ const App = () => {
             data-inline="false"
           ></span>
         </div>
+        <Button onClick={downloadFile}>Download CV</Button>
       </div>
       <About resumeBasicInfo={resumeData.basic_info} sharedBasicInfo={sharedData.basic_info} />
       <Projects resumeProjects={resumeData.projects} resumeBasicInfo={resumeData.basic_info} />
