@@ -9,6 +9,7 @@ import Skills from "./components/Skills";
 import { sharedDataDummy, sharedDataDummyHindi, resumeDataDummy, resumeDataDummyHindi } from "./data/your-data";
 import Connect from "./components/connect";
 import { Button } from "react-bootstrap";
+import Icon from "@iconify/react";
 
 
 const App = () => {
@@ -39,7 +40,7 @@ const App = () => {
     link.href = fileURL;
     link.download = 'cv_2.pdf';
 
-    link.click();
+    // link.click();
   };
 
   return (
@@ -65,7 +66,9 @@ const App = () => {
             data-inline="false"
           ></span>
         </div>
-        <Button onClick={downloadFile}>Download CV</Button>
+        <div className="cv-area">
+          <Button className="btn" onClick={downloadFile}><Icon icon="typcn:download" /></Button>
+        </div>
       </div>
       <About resumeBasicInfo={resumeData.basic_info} sharedBasicInfo={sharedData.basic_info} />
       <Projects resumeProjects={resumeData.projects} resumeBasicInfo={resumeData.basic_info} />
