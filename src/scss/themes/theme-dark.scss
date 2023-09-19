@@ -111,4 +111,25 @@ body[data-theme="dark"] {
    .close-icon {
       color: white;
    }
+
+   .cv-area {
+      .btn-cv {
+         background-color: #444647;
+         border-color: #15130e;
+         color: #e9ebdd;
+   
+         &:hover {
+            background-color: #8b8676;
+            border-color: #5e5c57;
+            color: #e0c575;
+         }
+   
+         &:focus {
+            background-color: #705e2b;
+            border-color: #5e4e25;
+            color: #2c2323;
+         }
+      }
+   }
 }
+

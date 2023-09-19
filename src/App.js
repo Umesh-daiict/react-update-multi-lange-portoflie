@@ -8,8 +8,6 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import { sharedDataDummy, sharedDataDummyHindi, resumeDataDummy, resumeDataDummyHindi } from "./data/your-data";
 import Connect from "./components/connect";
-import { Button } from "react-bootstrap";
-import Icon from "@iconify/react";
 
 
 const App = () => {
@@ -67,7 +65,7 @@ const App = () => {
           ></span>
         </div>
         <div className="cv-area">
-          <Button className="btn" onClick={downloadFile}><Icon icon="typcn:download" /></Button>
+          <button className="btn-cv" onClick={downloadFile}><i class="fa fa-download" aria-hidden="true"></i></button>
         </div>
       </div>
       <About resumeBasicInfo={resumeData.basic_info} sharedBasicInfo={sharedData.basic_info} />
