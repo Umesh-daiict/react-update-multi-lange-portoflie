@@ -7,7 +7,7 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import { sharedDataDummy, sharedDataDummyHindi, resumeDataDummy, resumeDataDummyHindi } from "./data/your-data";
-import Connect from "./components/connect";
+import Connect from "./components/Connect";
 
 
 const App = () => {
