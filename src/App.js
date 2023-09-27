@@ -46,7 +46,7 @@ const App = () => {
       <Header sharedData={sharedData.basic_info} />
       <div className="col-md-12 mx-auto text-center language">
         <div
-          className={`language-option mr-5 ${pickLang ? "active" : ""}`}
+          className={`language-option  mr-5 ${pickLang ? "active" : ""}`}
           onClick={() => setPickLang(true)}
         >
           <span

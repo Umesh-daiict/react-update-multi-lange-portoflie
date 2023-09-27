@@ -108,7 +108,7 @@ export const resumeDataDummy = {
             "startDate": "March 2021",
             "endDate": "Sep. 2021",
             "description": "As a software developer, I worked on the IFFCO-TOKIO app which offered policyholders the ability to buy and renew motor, health, travel, home, and trade insurance policies. Implemented forms and document verification features to manage twice the amount of documents compared to the previous version, improving the overall efficiency of the app. Developed and maintained the policy management validation process, streamlined the document management process, and reduced 3000 lines of code from the codebase to enhance the overall user experience.",
-            "images": [require('../assets/images/portfolio/project-img/p3/1.jpg'), require('../assets/images/portfolio/project-img/p3/2.jpg')],
+            "images": [require('../assets/images/portfolio/project-img/p3/1.png'), require('../assets/images/portfolio/project-img/p3/2.png')],
             "url": "",
             "technologies": [
                 {
@@ -375,7 +375,7 @@ export const resumeDataDummyHindi = {
             "startDate": "मार्च 2021",
             "endDate": "सितंबर 2021",
             "description": "सॉफ़्टवेयर डेवलपर के रूप में, मैंने इफको-टोकियो ऐप पर काम किया, जिसमें पॉलिसीधारकों को मोटर, स्वास्थ्य, यात्रा, घर और व्यापार बीमा नीतियाँ खरीदने और नवीनीकरण करने की क्षमता प्रदान की गई। पिछले संस्करण की तुलना में दस गुना दस्तावेज़ों के प्रबंधन के लिए फ़ॉर्म और दस्तावेज़ सत्यापन सुविधाएँ लागू की गईं, ऐप्लिकेशन की कुल क्षमता को बेहतर बनाने के लिए कोडबेस से 3000 लाइन को कम किया गया। नीति प्रबंधन मान्यता प्रक्रिया का विकास और बनाए रखने, दस्तावेज़ प्रबंधन प्रक्रिया को संघटित करने, और कुल उपयोगकर्ता अनुभव को सुधारने के लिए कोडबेस से 3000 लाइन को कम किया गया।",
-            "images": [require('../assets/images/portfolio/project-img/p3/1.jpg'), require('../assets/images/portfolio/project-img/p3/2.jpg')],
+            "images": [require('../assets/images/portfolio/project-img/p3/1.png'), require('../assets/images/portfolio/project-img/p3/2.png')],
             "url": "",
             "technologies": [
                 {

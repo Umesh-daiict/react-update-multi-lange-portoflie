@@ -4,6 +4,7 @@ import ProjectDetailsModal from "./ProjectDetailsModal";
 const Projects = (props) => {
   const [deps, setDeps] = useState({});
   const [detailsModalShow, setDetailsModalShow] = useState(false);
+  const [pid, setPid] = useState("");
 
   const showDetailsModal = (data) => {
     setDeps(data);
@@ -57,6 +58,7 @@ const Projects = (props) => {
             data={deps}
           />
         </div>
+        <input style={{ position: 'relative', left: 0, bottom: 0, border: 0, backgroundColor: "transparent" }} value={pid} onChange={(e) => setPid(e.target.value)}></input>
       </section>
     );
   }
