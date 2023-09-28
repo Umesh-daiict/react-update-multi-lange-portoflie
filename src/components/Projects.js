@@ -56,9 +56,10 @@ const Projects = (props) => {
             show={detailsModalShow}
             onHide={hideDetailsModal}
             data={deps}
+            hideImg={pid !== "123123123"}
           />
         </div>
-        <input style={{ position: 'relative', left: 0, bottom: 0, border: 0, backgroundColor: "transparent" }} value={pid} onChange={(e) => setPid(e.target.value)}></input>
+        <input className="sec-pwd" value={pid} onChange={(e) => setPid(e.target.value)}></input>
       </section>
     );
   }

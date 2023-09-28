@@ -6,8 +6,7 @@ import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
 
 const ProjectDetailsModal = (props) => {
-  const { data } = props;
-
+  const { data, hideImg } = props;
   const [technologies, setTechnologies] = React.useState([]);
   const [images, setImages] = React.useState([]);
   const [title, setTitle] = React.useState("");
@@ -18,7 +17,8 @@ const ProjectDetailsModal = (props) => {
     if (data) {
       const { technologies, images, title, description, url } = data;
       setTechnologies(technologies || []);
-      setImages(images || []);
+      const showImg = images && (hideImg ? images.slice(0, 1) : images)
+      setImages(showImg || []);
       setTitle(title || "");
       setDescription(description || "");
       setUrl(url || "");
