@@ -15,7 +15,7 @@ export const resumeDataDummy = {
             "title": "Fudu",
             "startDate": "Jan. 2023",
             "description": "Collaborated closely with UI/UX designers to translate design mockups and wireframes into pixel-perfect frontend implementations with Mobile Responsive Web App to be used by Restaurant Owners to grow their business. Integrated third-party APIs and libraries, such as Google Maps, social media integrations (Apple and Google Login), seamlessly into the frontend, expanding the project’s functionalities and enhancing Restaurant Owner engagement to its customers. Implemented robust testing strategies, including unit testing using Jest and Enzyme, to ensure the reliability and stability of the frontend codebase, resulting in a more robust and bug-free application.",
-            "images": [require('../assets/images/portfolio/project-img/p1/1.jpg')],
+            "images": [require('../assets/images/portfolio/project-img/p1/1.png')],
             "url": "sssssssssss",
             "technologies": [
                 {
@@ -309,7 +309,7 @@ export const resumeDataDummyHindi = {
             "title": "फुडू",
             "startDate": "जनवरी 2023",
             "description": "UI/UX डिज़ाइनर के साथ सख्त सहयोग करके डिज़ाइन मॉकअप और वायरफ़्रेम को पिक्सेल-पर-पिक्सेल फ्रंटएंड अमलीकरण में बदलने में मदद की गई, मोबाइल रिस्पॉन्सिव वेब ऐप्लिकेशन के साथ जिसे रेस्टोरेंट मालिक अपने व्यवसाय को बढ़ावा देने के लिए उपयोग कर सकते हैं। गूगल मैप्स, सोशल मीडिया एकीकरण (एप्पल और गूगल लॉगिन) जैसे थर्ड पार्टी एपीआई और पुस्तकालयों को बिना किसी समस्या के फ्रंटएंड में समाहित किया गया, परियोजना की क्षमताओं का विस्तार किया और रेस्टोरेंट मालिक को उनके ग्राहकों के साथ बेहतर संलग्नता प्रदान की। जेस्ट और एंजाइम का उपयोग करके इकाई परीक्षण के साथ मज़बूत परीक्षण रणनीतियों को लागू करके फ्रंटएंड कोडबेस की मज़बूती और स्थिरता सुनिश्चित की, जिससे एक और मज़बूत और बग-मुक्त एप्लिकेशन प्राप्त हुआ।",
-            "images": [require('../assets/images/portfolio/project-img/p1/1.jpg')],
+            "images": [require('../assets/images/portfolio/project-img/p1/1.png')],
             "url": "",
             "technologies": [
                 {
