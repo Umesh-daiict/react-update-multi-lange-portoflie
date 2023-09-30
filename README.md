@@ -1,13 +1,7 @@
 
 update read me
-add hire me banner
-connect with me form
 update section wise data for me
-dark scss for my about unde phote
-make csv not just downloadble but viewable too.
-password to see project details and img
-LED desing for marquee
-download my resume button in home page
+add filter under skill section
 <img width="80%" align="center" src="https://github.com/Dorota1997/react-frontend-dev-portfolio/blob/images/images/portfolio_mockup.png" alt="portfolio template mockup" /> <br/>
 <img height="350px" align="right" src="https://github.com/Dorota1997/react-frontend-dev-portfolio/blob/images/images/mobile-demo.gif" alt="portfolio mobile demo gif"/>
 
