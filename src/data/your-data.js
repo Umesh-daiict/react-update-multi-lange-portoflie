@@ -356,7 +356,44 @@ export const sharedDataDummy = {
 				class: 'devicon-bitbucket-original',
 				level: '65',
 			},
-		], //strart from google cloud
+
+			{
+				name: 'Google Cloud',
+				class: 'devicon-googlecloud-plain',
+				level: '65',
+			},
+			{
+				name: 'Grafana',
+				class: 'devicon-grafana-original',
+				level: '65',
+			},
+			{
+				name: 'Graphql',
+				class: 'devicon-graphql-plain',
+				level: '65',
+			},
+			{
+				name: 'Jest',
+				class: 'devicon-jest-plain',
+				level: '65',
+			},
+
+			{
+				name: 'Jira',
+				class: 'devicon-jira-plain',
+				level: '65',
+			},
+			{
+				name: 'kubernetes',
+				class: 'devicon-kubernetes-plain',
+				level: '65',
+			},
+			{
+				name: 'Latex',
+				class: 'devicon-latex-original',
+				level: '65',
+			},
+		], //strart from devicon-linux-plain
 	},
 };
 
