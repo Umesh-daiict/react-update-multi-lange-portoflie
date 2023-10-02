@@ -18,7 +18,7 @@ export const resumeDataDummy = {
 			description:
 				'Collaborated closely with UI/UX designers to translate design mockups and wireframes into pixel-perfect frontend implementations with Mobile Responsive Web App to be used by Restaurant Owners to grow their business. Integrated third-party APIs and libraries, such as Google Maps, social media integrations (Apple and Google Login), seamlessly into the frontend, expanding the project’s functionalities and enhancing Restaurant Owner engagement to its customers. Implemented robust testing strategies, including unit testing using Jest and Enzyme, to ensure the reliability and stability of the frontend codebase, resulting in a more robust and bug-free application.',
 			images: [require('../assets/images/portfolio/project-img/p1/1.png')],
-			url: 'sssssssssss',
+			url: 'https://fudu1-152366-react-native.b152366.uat.eastus.az.svc.builder.ai/',
 			technologies: [
 				{
 					class: 'devicon-react-original',
@@ -35,10 +35,10 @@ export const resumeDataDummy = {
 				{
 					class: 'devicon-jest-plain',
 					name: 'Jest',
-				},
+				}, 
 				{
-					class: 'devicon-enzyme-plain',
-					name: 'Enzyme',
+					class: 'devicon-gitlab-plain',
+					name: 'Gitlab',
 				},
 				// Add more technologies as needed
 			],
@@ -53,7 +53,7 @@ export const resumeDataDummy = {
 				require('../assets/images/portfolio/project-img/p2/1.png'),
 				require('../assets/images/portfolio/project-img/p2/2.png'),
 			],
-			url: '',
+			url: 'https://www.steer.global/platform/edu/new-check-step1',
 			technologies: [
 				{
 					class: 'devicon-react-original',
@@ -110,7 +110,10 @@ export const resumeDataDummy = {
 					class: 'devicon-jest-plain',
 					name: 'Jest',
 				},
-
+				{
+					class: 'devicon-ubuntu-plain',
+					name: 'Ubuntu',
+				}
 				// Add more technologies as needed
 			],
 		},
@@ -126,26 +129,28 @@ export const resumeDataDummy = {
 			],
 			url: '',
 			technologies: [
+
 				{
-					class: 'devicon-angularjs-plain',
-					name: 'Angular',
+					class: 'devicon-nodejs-plain',
+					name: 'NodeJs',
+				},
+				{
+					class: 'devicon-react-original',
+					name: 'React',
 				},
 				{
 					class: 'devicon-typescript-plain',
 					name: 'TypeScript',
 				},
 				{
-					class: 'devicon-angularmaterial-plain',
-					name: 'Angular Material',
+					class: 'devicon-materialui-plain',
+					name: 'Material ui',
 				},
 				{
-					class: 'devicon-reactrouter-plain',
-					name: 'React-Router',
+					class: 'devicon-mysql-plain',
+					name: 'MySql',
 				},
-				{
-					class: 'devicon-rxjs-plain',
-					name: 'RxJS',
-				},
+
 				// Add more technologies as needed
 			],
 		},
@@ -288,39 +293,34 @@ export const sharedDataDummy = {
 				level: '70',
 			},
 			{
-				name: 'Sass',
-				class: 'devicon-sass-original',
-				level: '75',
-			},
-			{
-				name: 'Bootstrap',
-				class: 'devicon-bootstrap-plain',
-				level: '85',
-			},
-			{
-				name: 'Shell Script',
-				class: 'devicon-bash-plain',
+				name: 'NextJs',
+				class: 'devicon-nextjs-original',
+				level: '65',
+			}, {
+				name: 'NodeJs',
+				class: 'devicon-nodejs-plain',
+				level: '65',
+			}, {
+				name: 'PostgreSQL',
+				class: 'devicon-postgresql-plain',
+				level: '65',
+			}, {
+				name: 'Redux',
+				class: 'devicon-redux-original',
+				level: '65',
+			}, {
+				name: 'Webpack',
+				class: 'devicon-webpack-plain',
+				level: '65',
+			}, {
+				name: 'TailwindCSS',
+				class: ' devicon-tailwindcss-plain',
 				level: '65',
 			},
 
 			{
-				name: 'Electron',
-				class: 'devicon-electron-original',
-				level: '60',
-			},
-			{
-				name: 'C',
-				class: 'devicon-c-plain',
-				level: '65',
-			},
-			{
 				name: 'MySQL',
 				class: 'devicon-mysql-plain',
-				level: '60',
-			},
-			{
-				name: 'Firebase',
-				class: 'devicon-firebase-plain',
 				level: '60',
 			},
 			{
@@ -330,42 +330,9 @@ export const sharedDataDummy = {
 			},
 
 			{
-				name: 'GitLab',
-				class: 'devicon-gitlab-plain',
-				level: '60',
-			},
-			{
-				name: 'Github',
-				class: 'devicon-github-original',
-				level: '60',
-			},
-			{
 				name: 'Figma',
 				class: 'devicon-figma-plain',
 				level: '60',
-			},
-
-			{
-				name: 'Eslint',
-				class: 'devicon-eslint-original',
-				level: '60',
-			},
-
-			{
-				name: 'BitBucket',
-				class: 'devicon-bitbucket-original',
-				level: '65',
-			},
-
-			{
-				name: 'Google Cloud',
-				class: 'devicon-googlecloud-plain',
-				level: '65',
-			},
-			{
-				name: 'Grafana',
-				class: 'devicon-grafana-original',
-				level: '65',
 			},
 			{
 				name: 'Graphql',
@@ -377,23 +344,110 @@ export const sharedDataDummy = {
 				class: 'devicon-jest-plain',
 				level: '65',
 			},
+			{
+				name: 'Google Cloud',
+				class: 'devicon-googlecloud-plain',
+				level: '65',
+			},
+			{
+				name: 'Git',
+				class: 'devicon-git-plain',
+				level: '65',
+			},
 
-			{
-				name: 'Jira',
-				class: 'devicon-jira-plain',
-				level: '65',
-			},
-			{
-				name: 'kubernetes',
-				class: 'devicon-kubernetes-plain',
-				level: '65',
-			},
-			{
-				name: 'Latex',
-				class: 'devicon-latex-original',
-				level: '65',
-			},
-		], //strart from devicon-linux-plain
+			// {
+			// 	name: 'GitLab',
+			// 	class: 'devicon-gitlab-plain',
+			// 	level: '60',
+			// },
+			// {
+			// 	name: 'Github',
+			// 	class: 'devicon-github-original',
+			// 	level: '60',
+			// },
+
+			// {
+			// 	name: 'C',
+			// 	class: 'devicon-c-plain',
+			// 	level: '65',
+			// },
+			// {
+			// 	name: 'Shell Script',
+			// 	class: 'devicon-bash-plain',
+			// 	level: '65',
+			// },
+			// {
+			// 	name: 'Sass',
+			// 	class: 'devicon-sass-original',
+			// 	level: '75',
+			// },
+			// {
+			// 	name: 'Bootstrap',
+			// 	class: 'devicon-bootstrap-plain',
+			// 	level: '85',
+			// },
+
+			// {
+			// 	name: 'Electron',
+			// 	class: 'devicon-electron-original',
+			// 	level: '60',
+			// },
+
+			// {
+			// 	name: 'Firebase',
+			// 	class: 'devicon-firebase-plain',
+			// 	level: '60',
+			// },
+			// {
+			// 	name: 'Eslint',
+			// 	class: 'devicon-eslint-original',
+			// 	level: '60',
+			// },
+
+			// {
+			// 	name: 'BitBucket',
+			// 	class: 'devicon-bitbucket-original',
+			// 	level: '65',
+			// },
+
+			// {
+			// 	name: 'Grafana',
+			// 	class: 'devicon-grafana-original',
+			// 	level: '65',
+			// },
+
+			// {
+			// 	name: 'Jira',
+			// 	class: 'devicon-jira-plain',
+			// 	level: '65',
+			// },
+			// // {
+			// 	name: 'kubernetes',
+			// 	class: 'devicon-kubernetes-plain',
+			// 	level: '65',
+			// },
+			// {
+			// 	name: 'Latex',
+			// 	class: 'devicon-latex-original',
+			// 	level: '65',
+			// },
+
+			// // "devicon-linux-plain"
+			// devicon - materialui - plain
+			// devicon - matlab - plain
+			// devicon - mongodb - plain		
+			// devicon - svelte - plain
+			// "devicon-npm-original-wordmark"
+			// devicon - pandas - original
+			// devicon - python - plain
+			// devicon - redis - plain
+			// "devicon-tensorflow-original"
+			// devicon - threejs - original
+			// devicon - ubuntu - plain
+			// "devicon-vim-plain"
+			// devicon - sqlite - plain
+
+		],
 	},
 };
 
