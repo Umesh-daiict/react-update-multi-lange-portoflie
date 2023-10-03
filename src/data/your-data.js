@@ -35,7 +35,7 @@ export const resumeDataDummy = {
 				{
 					class: 'devicon-jest-plain',
 					name: 'Jest',
-				}, 
+				},
 				{
 					class: 'devicon-gitlab-plain',
 					name: 'Gitlab',
@@ -118,16 +118,16 @@ export const resumeDataDummy = {
 			],
 		},
 		{
-			title: 'IFFCO Tokio',
-			startDate: 'March 2021',
-			endDate: 'Sep. 2021',
+			title: 'Restro',
+			startDate: 'xxxx',
+			endDate: 'xxxx',
 			description:
-				'As a software developer, I worked on the IFFCO-TOKIO app which offered policyholders the ability to buy and renew motor, health, travel, home, and trade insurance policies. Implemented forms and document verification features to manage twice the amount of documents compared to the previous version, improving the overall efficiency of the app. Developed and maintained the policy management validation process, streamlined the document management process, and reduced 3000 lines of code from the codebase to enhance the overall user experience.',
+				'As a software developer, I have had the privilege of contributing to a comprehensive Restaurant Management Application, demonstrating my expertise in full-stack development and optimization strategies. This project showcases my ability to create efficient backend systems and user-friendly frontend interfaces to enhance the restaurant experience. I utilized Node.js to build a robust infrastructure for seamless customer order processing, table and food item management, and real-time order tracking. The frontend featured an interactive user interface with features such as table booking, food selection, and bill printing. I prioritized user experience, ensuring that customers found the application easy to navigate.',
 			images: [
 				require('../assets/images/portfolio/project-img/p3/1.png'),
 				require('../assets/images/portfolio/project-img/p3/2.png'),
 			],
-			url: '',
+			url: 'https://restrocrm.com/',
 			technologies: [
 
 				{
@@ -158,7 +158,7 @@ export const resumeDataDummy = {
 	],
 	experience: [
 		{
-			company: 'Skyline Infosys',
+			company: 'Octopus Technology',
 			title: 'Software Developer',
 			years: 'March 2022 - Present',
 			mainTech: ['React', 'TypeScript', 'TailwindCSS', 'Material UI'],
@@ -174,7 +174,7 @@ export const resumeDataDummy = {
 			iconClass: 'mx-auto fab devicon-nextjs-original experience-icon',
 		},
 		{
-			company: 'Unknown Company',
+			company: 'Octopus Technology',
 			title: 'Junior Software Developer',
 			years: 'September 2021 - February 2022',
 			mainTech: [
@@ -199,7 +199,7 @@ export const resumeDataDummy = {
 			iconClass: 'fa-react fab  mx-auto experience-icon',
 		},
 		{
-			company: 'Clomotech',
+			company: 'Skyline Infosys',
 			title: 'Software Engineer Intern',
 			years: 'March 2021 - September 2021',
 			mainTech: ['Angular 6'],
@@ -215,19 +215,19 @@ export const resumeDataDummy = {
 			],
 			iconClass: 'mx-auto fab devicon-angularjs-plain experience-icon',
 		},
-		{
-			company: 'DA-IICT',
-			title: 'Summer Research Intern',
-			years: 'May 2020 - August 2020',
-			mainTech: ['C++'],
-			technologies: [
-				'CYK Algorithm',
-				'Dynamic Programming',
-				'Chomsky Normal Form (CNF)',
-				// Add more technologies as needed
-			],
-			iconClass: 'mx-auto  devicon-cplusplus-plain fab  experience-icon',
-		},
+		// {
+		// 	company: 'DA-IICT',
+		// 	title: 'Summer Research Intern',
+		// 	years: 'May 2020 - August 2020',
+		// 	mainTech: ['C++'],
+		// 	technologies: [
+		// 		'CYK Algorithm',
+		// 		'Dynamic Programming',
+		// 		'Chomsky Normal Form (CNF)',
+		// 		// Add more technologies as needed
+		// 	],
+		// 	iconClass: 'mx-auto  devicon-cplusplus-plain fab  experience-icon',
+		// },
 		// Add more experience entries as needed
 	],
 };
