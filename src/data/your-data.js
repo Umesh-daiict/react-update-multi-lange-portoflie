@@ -529,7 +529,7 @@ export const resumeDataDummyHindi = {
 			technologies: [
 				{
 					class: 'devicon-react-original',
-					name: 'रिएक्ट',
+					name: 'React',
 				},
 				{
 					class: 'devicon-typescript-plain',
@@ -583,7 +583,7 @@ export const resumeDataDummyHindi = {
 			technologies: [
 				{
 					class: 'devicon-react-original',
-					name: 'रिएक्ट',
+					name: 'React',
 				},
 				{
 					class: 'devicon-typescript-plain',
@@ -662,7 +662,7 @@ export const resumeDataDummyHindi = {
 			company: 'स्काईलाइन इन्फोसिस',
 			title: 'सॉफ़्टवेयर डेवलपर',
 			years: 'मार्च 2022 - वर्तमान',
-			mainTech: ['रिएक्ट', 'टाइपस्क्रिप्ट', 'टेलविंडसीएसएस', 'मैटेरियल यूआई'],
+			mainTech: ['React', 'टाइपस्क्रिप्ट', 'टेलविंडसीएसएस', 'मैटेरियल यूआई'],
 			technologies: [
 				'स्टियर.ग्लोबल',
 				'रीडक्स',
@@ -683,7 +683,7 @@ export const resumeDataDummyHindi = {
 				'एक्सप्रेस',
 				'मैटेरियल-यूआई',
 				'फॉर्मिक',
-				'रीऐक्ट बूटस्ट्रैप',
+				'रीऐक्ट bootstrap ',
 				'एंटीडी',
 			],
 			technologies: [
@@ -691,7 +691,7 @@ export const resumeDataDummyHindi = {
 				'रीऐक्ट',
 				'मैटेरियल-यूआई',
 				'फॉर्मिक',
-				'रीऐक्ट बूटस्ट्रैप',
+				'रीऐक्ट bootstrap ',
 				'एंटीडी',
 				'सीआई/सीडी',
 				// आवश्यकतानुसार और तकनीकों को जोड़ें
@@ -708,7 +708,7 @@ export const resumeDataDummyHindi = {
 				'Angular Form',
 				'Angular Http',
 				'Angular material',
-				'बूटस्ट्रैप',
+				'bootstrap ',
 				'चार्ट.जेएस',
 				'मोमेंट.जेएस',
 				'फॉन्टअवेसम',
@@ -773,7 +773,7 @@ export const sharedDataDummyHindi = {
 				level: '95',
 			},
 			{
-				name: 'रिएक्ट',
+				name: 'React',
 				class: 'devicon-react-original',
 				level: '90',
 			},
@@ -793,7 +793,7 @@ export const sharedDataDummyHindi = {
 				level: '75',
 			},
 			{
-				name: 'बूटस्ट्रैप',
+				name: 'bootstrap ',
 				class: 'devicon-bootstrap-plain',
 				level: '85',
 			},
