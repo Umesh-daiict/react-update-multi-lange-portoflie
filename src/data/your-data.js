@@ -634,7 +634,7 @@ export const resumeDataDummyHindi = {
 			technologies: [
 				{
 					class: 'devicon-angularjs-plain',
-					name: 'अंगुलर',
+					name: 'Angular',
 				},
 				{
 					class: 'devicon-typescript-plain',
@@ -642,7 +642,7 @@ export const resumeDataDummyHindi = {
 				},
 				{
 					class: 'devicon-angularmaterial-plain',
-					name: 'अंगुलर मैटेरियल',
+					name: 'Angular मैटेरियल',
 				},
 				{
 					class: 'devicon-reactrouter-plain',
@@ -703,11 +703,11 @@ export const resumeDataDummyHindi = {
 			company: 'क्लोमोटेक',
 			title: 'सॉफ़्टवेयर इंजीनियर इंटर्न',
 			years: 'मार्च 2021 - सितंबर 2021',
-			mainTech: ['अंगुलर 6'],
+			mainTech: ['Angular 6'],
 			technologies: [
-				'अंगुलर फ़ॉर्म्स',
-				'अंगुलर एचटीटीपी',
-				'अंगुलर मैटेरियल',
+				'Angular Form',
+				'Angular Http',
+				'Angular material',
 				'बूटस्ट्रैप',
 				'चार्ट.जेएस',
 				'मोमेंट.जेएस',
