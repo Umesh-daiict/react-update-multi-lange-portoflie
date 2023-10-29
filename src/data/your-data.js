@@ -114,8 +114,8 @@ export const resumeDataDummy = {
 		},
 		{
 			title: 'Pocket Tax',
-			startDate: 'xxxx xxxx',
-			endDate: 'xxxx xxxx',
+			startDate: 'Aug 2022',
+			endDate: 'Feb 2023',
 			description:
 				'As a software developer,I worked on the Pocket Tax app, which offered a comprehensive suite of features for efficient tax filing and financial management.  The onboarding process was streamlined into three simple steps for user convenience, involving account creation, PAN card upload, and verification. I integrated authentication mechanisms, allowing users to sign up and log in via email or Google accounts. The platform boasts real-time financial management capabilities, including spendings tracking, investment analysis, and an interactive dashboard. To distinguish our service, I developed a pro account feature that optimizes tax savings and provides insights through past year analysis. User satisfaction is emphasized with a dedicated section for customer testimonials, fostering trust. Lastly, I maintained security at the forefront, implementing robust data protection measures. Overall, this project underscores my ability to create intuitive and secure web applications, catering to both user needs and the complexities of tax filing.',
 			images: [
@@ -143,17 +143,18 @@ export const resumeDataDummy = {
 				{
 					class: 'devicon-ubuntu-plain',
 					name: 'Ubuntu',
-				}
+				},
 				// Add more technologies as needed
 			],
 		},
 		{
 			title: 'Restro',
-			startDate: 'xxxx',
+			startDate: 'March 2023',
 			endDate: 'xxxx',
 			description:
 				'As a software developer, I have had the privilege of contributing to a comprehensive Restaurant Management Application, demonstrating my expertise in full-stack development and optimization strategies. This project showcases my ability to create efficient backend systems and user-friendly frontend interfaces to enhance the restaurant experience. I utilized Node.js to build a robust infrastructure for seamless customer order processing, table and food item management, and real-time order tracking. The frontend featured an interactive user interface with features such as table booking, food selection, and bill printing. I prioritized user experience, ensuring that customers found the application easy to navigate.',
-			images: [require('../assets/images/portfolio/project-img/p3/1.png'),
+			images: [
+				require('../assets/images/portfolio/project-img/p3/1.png'),
 				require('../assets/images/portfolio/project-img/p3/2.png'),
 				require('../assets/images/portfolio/project-img/p3/3.png'),
 				require('../assets/images/portfolio/project-img/p3/4.png'),
@@ -167,11 +168,9 @@ export const resumeDataDummy = {
 				require('../assets/images/portfolio/project-img/p3/12.png'),
 				require('../assets/images/portfolio/project-img/p3/13.png'),
 				require('../assets/images/portfolio/project-img/p3/14.png'),
-
 			],
 			url: 'https://restrocrm.com/',
 			technologies: [
-
 				{
 					class: 'devicon-nodejs-plain',
 					name: 'NodeJs',
@@ -205,58 +204,60 @@ export const resumeDataDummy = {
 			years: 'March 2022 - Present',
 			mainTech: ['React', 'TypeScript', 'TailwindCSS', 'Material UI'],
 			technologies: [
-				'STEER.GLOBAL',
+				'Jest',
 				'Redux',
-				'Google Maps API',
-				'MySQL',
+				'Google API',
+				'NodeJs',
 				'phpMyAdmin',
-				'Wonde API',
+				'Firebase',
 				// Add more technologies as needed
 			],
 			iconClass: 'mx-auto fab devicon-nextjs-original experience-icon',
 		},
 		{
-			company: 'Octopus Technology',
-			title: 'Junior Software Developer',
+			company: 'Skyline Infosys',
+			title: 'Software Developer',
 			years: 'September 2021 - February 2022',
-			mainTech: [
-				'Node.js',
-				'Express',
-				'Material-UI',
-				'Formik',
-				'React Bootstrap',
-				'Antd',
-			],
+			mainTech: ['Angular.js', 'React', 'Material-UI', 'React Bootstrap'],
 			technologies: [
 				'REST APIs',
-				'React',
 				'Material-UI',
 				'Formik',
 				'React Bootstrap',
 				'Antd',
 				'CI/CD',
+				'tailwind CSS',
+				'HTML5',
+				'CSS3',
+				'Angular Forms',
+				'Angular HTTP',
+				'Angular Material',
+				'Bootstrap',
+				// 'Chart.js',
+				// 'moment.js',
+				// 'Fontawesome',
 				// Add more technologies as needed
 			],
 
 			iconClass: 'fa-react fab  mx-auto experience-icon',
 		},
-		{
-			company: 'Skyline Infosys',
-			title: 'Software Engineer Intern',
-			years: 'March 2021 - September 2021',
-			mainTech: ['Angular 6'],
-			technologies: [
-				'Angular Forms',
-				'Angular HTTP',
-				'Angular Material',
-				'Bootstrap',
-				'Chart.js',
-				'moment.js',
-				'Fontawesome',
-				// Add more technologies as needed
-			],
-			iconClass: 'mx-auto fab devicon-angularjs-plain experience-icon',
-		},
+		// {
+		// 	company: 'Skyline Infosys',
+		// 	title: 'Software Engineer Intern',
+		// 	years: 'March 2021 - September 2021',
+		// 	mainTech: ['Angular 6'],
+		// 	technologies: [
+		// 		'Angular Forms',
+		// 		'Angular HTTP',
+		// 		'Angular Material',
+		// 		'Bootstrap',
+		// 		'Chart.js',
+		// 		'moment.js',
+		// 		'Fontawesome',
+		// 		// Add more technologies as needed
+		// 	],
+		// 	iconClass: 'mx-auto fab devicon-angularjs-plain experience-icon',
+		// },
 		// {
 		// 	company: 'DA-IICT',
 		// 	title: 'Summer Research Intern',
