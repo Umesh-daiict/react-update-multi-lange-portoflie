@@ -538,7 +538,7 @@ export const resumeDataDummyHindi = {
 				},
 				{
 					class: 'devicon-materialui-plain',
-					name: 'मैटेरियल-यूआई',
+					name: 'Material-यूआई',
 				},
 				{
 					class: 'devicon-jest-plain',
@@ -596,15 +596,15 @@ export const resumeDataDummyHindi = {
 				},
 				{
 					class: 'devicon-reactrouter-plain',
-					name: 'React-राउटर',
+					name: 'React-Router',
 				},
 				{
 					class: 'devicon-materialui-plain',
-					name: 'मैटेरियल-यूआई',
+					name: 'Material-यूआई',
 				},
 				{
 					class: 'devicon-tailwindcss-plain',
-					name: 'टेलविंड सीएसएस',
+					name: 'टेलविंड CSS',
 				},
 				// आवश्यकतानुसार और तकनीकों को जोड़ें
 			],
@@ -643,15 +643,15 @@ export const resumeDataDummyHindi = {
 				},
 				{
 					class: 'devicon-angularmaterial-plain',
-					name: 'Angular मैटेरियल',
+					name: 'Angular Material',
 				},
 				{
 					class: 'devicon-reactrouter-plain',
-					name: 'React-राउटर',
+					name: 'React-Router',
 				},
 				{
 					class: 'devicon-rxjs-plain',
-					name: 'आरएक्सJs',
+					name: 'RxJs',
 				},
 				// आवश्यकतानुसार और तकनीकों को जोड़ें
 			],
@@ -663,7 +663,7 @@ export const resumeDataDummyHindi = {
 			company: 'स्काईलाइन इन्फोसिस',
 			title: 'सॉफ़्टवेयर डेवलपर',
 			years: 'मार्च 2022 - वर्तमान',
-			mainTech: ['React', 'टाइपस्क्रिप्ट', 'टेलविंडसीएसएस', 'मैटेरियल यूआई'],
+			mainTech: ['React', 'टाइपस्क्रिप्ट', 'टेलविंडCSS', 'Material यूआई'],
 			technologies: [
 				'स्टियर.ग्लोबल',
 				'रीडक्स',
@@ -682,7 +682,7 @@ export const resumeDataDummyHindi = {
 			mainTech: [
 				'Node.Js',
 				'Express',
-				'मैटेरियल-यूआई',
+				'Material-यूआई',
 				'फॉर्मिक',
 				'React bootstrap ',
 				'एंटीडी',
@@ -690,7 +690,7 @@ export const resumeDataDummyHindi = {
 			technologies: [
 				'रेस्ट एपीआई',
 				'React',
-				'मैटेरियल-यूआई',
+				'Material-यूआई',
 				'फॉर्मिक',
 				'React bootstrap ',
 				'एंटीडी',
@@ -769,7 +769,7 @@ export const sharedDataDummyHindi = {
 				level: '95',
 			},
 			{
-				name: 'सीएसएस 3',
+				name: 'CSS 3',
 				class: 'devicon-css3-plain',
 				level: '95',
 			},
