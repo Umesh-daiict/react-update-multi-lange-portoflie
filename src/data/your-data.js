@@ -534,7 +534,7 @@ export const resumeDataDummyHindi = {
 				},
 				{
 					class: 'devicon-typescript-plain',
-					name: 'टाइपस्क्रिप्ट',
+					name: 'Typescript',
 				},
 				{
 					class: 'devicon-materialui-plain',
@@ -588,7 +588,7 @@ export const resumeDataDummyHindi = {
 				},
 				{
 					class: 'devicon-typescript-plain',
-					name: 'टाइपस्क्रिप्ट',
+					name: 'Typescript',
 				},
 				{
 					class: 'devicon-redux-original',
@@ -639,7 +639,7 @@ export const resumeDataDummyHindi = {
 				},
 				{
 					class: 'devicon-typescript-plain',
-					name: 'टाइपस्क्रिप्ट',
+					name: 'Typescript',
 				},
 				{
 					class: 'devicon-angularmaterial-plain',
@@ -663,9 +663,8 @@ export const resumeDataDummyHindi = {
 			company: 'स्काईलाइन इन्फोसिस',
 			title: 'सॉफ़्टवेयर डेवलपर',
 			years: 'मार्च 2022 - वर्तमान',
-			mainTech: ['React', 'टाइपस्क्रिप्ट', 'टेलविंडCSS', 'Material यूआई'],
+			mainTech: ['React', 'Typescript', 'टेलविंडCSS', 'Material यूआई'],
 			technologies: [
-				'स्टियर.ग्लोबल',
 				'रीडक्स',
 				'गूगल मैप्स एपीआई',
 				'मायएसक्यूएल',
@@ -764,7 +763,7 @@ export const sharedDataDummyHindi = {
 	skills: {
 		icons: [
 			{
-				name: 'एचटीएमएल 5',
+				name: 'HTML 5',
 				class: 'devicon-html5-plain',
 				level: '95',
 			},
@@ -779,12 +778,12 @@ export const sharedDataDummyHindi = {
 				level: '90',
 			},
 			{
-				name: 'टाइपस्क्रिप्ट',
+				name: 'Typescript',
 				class: 'devicon-typescript-plain',
 				level: '90',
 			},
 			{
-				name: 'जावास्क्रिप्ट',
+				name: 'Javascript',
 				class: 'devicon-javascript-plain',
 				level: '70',
 			},
