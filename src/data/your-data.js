@@ -538,7 +538,7 @@ export const resumeDataDummyHindi = {
 				},
 				{
 					class: 'devicon-materialui-plain',
-					name: 'Material-यूआई',
+					name: 'Material-UI',
 				},
 				{
 					class: 'devicon-jest-plain',
@@ -556,7 +556,7 @@ export const resumeDataDummyHindi = {
 			startDate: 'जुलाई 2022',
 			endDate: 'फ़रवरी 2023',
 			description:
-				'छात्रों के मानसिक स्वास्थ्य की सुरक्षा करने के लिए डिज़ाइन किए गए एक प्लेटफ़ॉर्म पर सॉफ़्टवेयर डेवलपर के रूप में काम किया। प्लेटफ़ॉर्म के पुनरावलोकन का योगदान दिया ताकि बेहतर उपयोगकर्ता अनुभव प्रदान किया जा सके। एप्लिकेशन-व्यापारिक राज्य का प्रबंधन करने के लिए रीडक्स स्टेट्स को लागू किया और एप्लिकेशन लोड समय को 1.5 सेकंड में कम किया। स्थिर वित्तपोषण के कारण संकुचित संसाधनों के बावजूद, 3 महीने के भीतर एक माध्यम आकार के एप्लिकेशन को एंगुलरJs से React में सफलतापूर्वक प्रायोजित किया, जिसमें 5000 से अधिक छात्रों और शिक्षकों के डेटा का प्रबंधन करने के लिए विशेषताएँ जोड़ी गईं, अनुमतियों को सेट करने की अनुमति दी गई, और फ़ाइल अपलोड/निर्यात की क्षमताएँ सक्षम की गईं।',
+				'छात्रों के मानसिक स्वास्थ्य की सुरक्षा करने के लिए डिज़ाइन किए गए एक प्लेटफ़ॉर्म पर सॉफ़्टवेयर डेवलपर के रूप में काम किया। प्लेटफ़ॉर्म के पुनरावलोकन का योगदान दिया ताकि बेहतर उपयोगकर्ता अनुभव प्रदान किया जा सके। एप्लिकेशन-व्यापारिक राज्य का प्रबंधन करने के लिए Redux स्टेट्स को लागू किया और एप्लिकेशन लोड समय को 1.5 सेकंड में कम किया। स्थिर वित्तपोषण के कारण संकुचित संसाधनों के बावजूद, 3 महीने के भीतर एक माध्यम आकार के एप्लिकेशन को एंगुलरJs से React में सफलतापूर्वक प्रायोजित किया, जिसमें 5000 से अधिक छात्रों और शिक्षकों के डेटा का प्रबंधन करने के लिए विशेषताएँ जोड़ी गईं, अनुमतियों को सेट करने की अनुमति दी गई, और फ़ाइल अपलोड/निर्यात की क्षमताएँ सक्षम की गईं।',
 			images: [
 				require('../assets/images/portfolio/project-img/p2/1.png'),
 				require('../assets/images/portfolio/project-img/p2/2.png'),
@@ -592,7 +592,7 @@ export const resumeDataDummyHindi = {
 				},
 				{
 					class: 'devicon-redux-original',
-					name: 'रीडक्स',
+					name: 'Redux',
 				},
 				{
 					class: 'devicon-reactrouter-plain',
@@ -600,7 +600,7 @@ export const resumeDataDummyHindi = {
 				},
 				{
 					class: 'devicon-materialui-plain',
-					name: 'Material-यूआई',
+					name: 'Material-UI',
 				},
 				{
 					class: 'devicon-tailwindcss-plain',
@@ -631,7 +631,7 @@ export const resumeDataDummyHindi = {
 				require('../assets/images/portfolio/project-img/p3/13.png'),
 				require('../assets/images/portfolio/project-img/p3/14.png'),
 			],
-			url: '',
+			url: 'https://sso.iffcotokio.co.in/siebel',
 			technologies: [
 				{
 					class: 'devicon-angularjs-plain',
@@ -663,9 +663,9 @@ export const resumeDataDummyHindi = {
 			company: 'स्काईलाइन इन्फोसिस',
 			title: 'सॉफ़्टवेयर डेवलपर',
 			years: 'मार्च 2022 - वर्तमान',
-			mainTech: ['React', 'Typescript', 'टेलविंडCSS', 'Material यूआई'],
+			mainTech: ['React', 'Typescript', 'टेलविंडCSS', 'Material UI'],
 			technologies: [
-				'रीडक्स',
+				'Redux',
 				'गूगल मैप्स एपीआई',
 				'मायएसक्यूएल',
 				'फ़ीमायडमिन',
@@ -681,7 +681,7 @@ export const resumeDataDummyHindi = {
 			mainTech: [
 				'Node.Js',
 				'Express',
-				'Material-यूआई',
+				'Material-UI',
 				'फॉर्मिक',
 				'React bootstrap ',
 				'एंटीडी',
@@ -689,7 +689,7 @@ export const resumeDataDummyHindi = {
 			technologies: [
 				'रेस्ट एपीआई',
 				'React',
-				'Material-यूआई',
+				'Material-UI',
 				'फॉर्मिक',
 				'React bootstrap ',
 				'एंटीडी',
