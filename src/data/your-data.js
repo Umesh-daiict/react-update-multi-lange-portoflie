@@ -513,7 +513,7 @@ export const resumeDataDummyHindi = {
 			title: 'फुडू',
 			startDate: 'जनवरी 2023',
 			description:
-				'UI/UX डिज़ाइनर के साथ सख्त सहयोग करके डिज़ाइन मॉकअप और वायरफ़्रेम को पिक्सेल-पर-पिक्सेल फ्रंटएंड अमलीकरण में बदलने में मदद की गई, मोबाइल रिस्पॉन्सिव वेब ऐप्लिकेशन के साथ जिसे रेस्टोरेंट मालिक अपने व्यवसाय को बढ़ावा देने के लिए उपयोग कर सकते हैं। गूगल मैप्स, सोशल मीडिया एकीकरण (एप्पल और गूगल लॉगिन) जैसे थर्ड पार्टी एपीआई और पुस्तकालयों को बिना किसी समस्या के फ्रंटएंड में समाहित किया गया, परियोजना की क्षमताओं का विस्तार किया और रेस्टोरेंट मालिक को उनके ग्राहकों के साथ बेहतर संलग्नता प्रदान की। जेस्ट और एंजाइम का उपयोग करके इकाई परीक्षण के साथ मज़बूत परीक्षण रणनीतियों को लागू करके फ्रंटएंड कोडबेस की मज़बूती और स्थिरता सुनिश्चित की, जिससे एक और मज़बूत और बग-मुक्त एप्लिकेशन प्राप्त हुआ।',
+				'UI/UX डिज़ाइनर के साथ सख्त सहयोग करके डिज़ाइन मॉकअप और वायरफ़्रेम को पिक्सेल-पर-पिक्सेल फ्रंटएंड अमलीकरण में बदलने में मदद की गई, मोबाइल रिस्पॉन्सिव वेब ऐप्लिकेशन के साथ जिसे रेस्टोरेंट मालिक अपने व्यवसाय को बढ़ावा देने के लिए उपयोग कर सकते हैं। गूगल मैप्स, सोशल मीडिया एकीकरण (एप्पल और गूगल लॉगिन) जैसे थर्ड पार्टी एपीआई और पुस्तकालयों को बिना किसी समस्या के फ्रंटएंड में समाहित किया गया, परियोजना की क्षमताओं का विस्तार किया और रेस्टोरेंट मालिक को उनके ग्राहकों के साथ बेहतर संलग्नता प्रदान की। Jest और एंजाइम का उपयोग करके इकाई परीक्षण के साथ मज़बूत परीक्षण रणनीतियों को लागू करके फ्रंटएंड कोडबेस की मज़बूती और स्थिरता सुनिश्चित की, जिससे एक और मज़बूत और बग-मुक्त एप्लिकेशन प्राप्त हुआ।',
 			images: [
 				require('../assets/images/portfolio/project-img/p1/1.png'),
 				require('../assets/images/portfolio/project-img/p1/2.png'),
@@ -542,7 +542,7 @@ export const resumeDataDummyHindi = {
 				},
 				{
 					class: 'devicon-jest-plain',
-					name: 'जेस्ट',
+					name: 'Jest',
 				},
 				{
 					class: 'devicon-enzyme-plain',
@@ -604,7 +604,7 @@ export const resumeDataDummyHindi = {
 				},
 				{
 					class: 'devicon-tailwindcss-plain',
-					name: 'टेलविंड CSS',
+					name: 'Tailwind CSS',
 				},
 				// आवश्यकतानुसार और तकनीकों को जोड़ें
 			],
@@ -663,11 +663,11 @@ export const resumeDataDummyHindi = {
 			company: 'स्काईलाइन इन्फोसिस',
 			title: 'सॉफ़्टवेयर डेवलपर',
 			years: 'मार्च 2022 - वर्तमान',
-			mainTech: ['React', 'Typescript', 'टेलविंडCSS', 'Material UI'],
+			mainTech: ['React', 'Typescript', 'TailwindCSS', 'Material UI'],
 			technologies: [
 				'Redux',
 				'गूगल मैप्स एपीआई',
-				'मायएसक्यूएल',
+				'MySQL',
 				'फ़ीमायडमिन',
 				'वॉन्ड एपीआई',
 				// आवश्यकतानुसार और तकनीकों को जोड़ें
@@ -744,7 +744,7 @@ export const sharedDataDummyHindi = {
 		],
 		social: [
 			{
-				name: 'गिटहब',
+				name: 'GitHub',
 				url: 'https://github.com/Umesh-daiict',
 				class: 'fab fa-github',
 			},
@@ -788,7 +788,7 @@ export const sharedDataDummyHindi = {
 				level: '70',
 			},
 			{
-				name: 'सैस',
+				name: 'Sass',
 				class: 'devicon-sass-original',
 				level: '75',
 			},
@@ -798,12 +798,12 @@ export const sharedDataDummyHindi = {
 				level: '85',
 			},
 			{
-				name: 'सीशार्प',
-				class: 'devicon-csharp-plain',
+				name: 'C',
+				class: 'devicon-c-plain',
 				level: '65',
 			},
 			{
-				name: 'मायएसक्यूएल',
+				name: 'MySQL',
 				class: 'devicon-mysql-plain',
 				level: '60',
 			},
