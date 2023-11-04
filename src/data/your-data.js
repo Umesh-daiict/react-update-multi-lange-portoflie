@@ -634,12 +634,16 @@ export const resumeDataDummyHindi = {
 			url: 'https://sso.iffcotokio.co.in/siebel',
 			technologies: [
 				{
+					class: 'devicon-typescript-plain',
+					name: 'Typescript',
+				},
+				{
 					class: 'devicon-angularjs-plain',
 					name: 'Angular',
 				},
 				{
-					class: 'devicon-typescript-plain',
-					name: 'Typescript',
+					class: 'devicon-rxjs-plain',
+					name: 'RxJs',
 				},
 				{
 					class: 'devicon-angularmaterial-plain',
@@ -648,10 +652,6 @@ export const resumeDataDummyHindi = {
 				{
 					class: 'devicon-reactrouter-plain',
 					name: 'React-Router',
-				},
-				{
-					class: 'devicon-rxjs-plain',
-					name: 'RxJs',
 				},
 				// आवश्यकतानुसार और तकनीकों को जोड़ें
 			],
@@ -666,10 +666,9 @@ export const resumeDataDummyHindi = {
 			mainTech: ['React', 'Typescript', 'TailwindCSS', 'Material UI'],
 			technologies: [
 				'Redux',
-				'गूगल मैप्स एपीआई',
+				'Google API',
 				'MySQL',
-				'फ़ीमायडमिन',
-				'वॉन्ड एपीआई',
+				'PostgreSQL',
 				// आवश्यकतानुसार और तकनीकों को जोड़ें
 			],
 			iconClass: 'mx-auto fab devicon-nextjs-original experience-icon',
@@ -682,17 +681,17 @@ export const resumeDataDummyHindi = {
 				'Node.Js',
 				'Express',
 				'Material-UI',
-				'फॉर्मिक',
+				'Formik',
 				'React bootstrap ',
-				'एंटीडी',
+				'Antd',
 			],
 			technologies: [
-				'रेस्ट एपीआई',
+				'REST API',
 				'React',
 				'Material-UI',
-				'फॉर्मिक',
+				'Formik',
 				'React bootstrap ',
-				'एंटीडी',
+				'Antd',
 				'सीआई/सीडी',
 				// आवश्यकतानुसार और तकनीकों को जोड़ें
 			],
