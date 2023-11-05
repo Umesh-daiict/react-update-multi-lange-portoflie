@@ -692,7 +692,7 @@ export const resumeDataDummyHindi = {
 				'Formik',
 				'React bootstrap ',
 				'Antd',
-				'सीआई/सीडी',
+				'CI/CD',
 				// आवश्यकतानुसार और तकनीकों को जोड़ें
 			],
 
@@ -709,8 +709,7 @@ export const resumeDataDummyHindi = {
 				'Angular material',
 				'bootstrap ',
 				'Chart.Js',
-				'मोमेंट.Js',
-				'फॉन्टअवेसम',
+				'Moment.Js',
 				// आवश्यकतानुसार और तकनीकों को जोड़ें
 			],
 			iconClass: 'mx-auto fab devicon-angularjs-plain experience-icon',
@@ -721,9 +720,9 @@ export const resumeDataDummyHindi = {
 			years: 'मई 2020 - अगस्त 2020',
 			mainTech: ['C++'],
 			technologies: [
-				'सीवाईके एल्गोरिदम',
-				'डायनामिक प्रोग्रामिंग',
-				'चोम्स्की नॉर्मल फ़ॉर्म (सीएनएफ)',
+				'Algorithms',
+				'Dynamic Programming',
+				'Data Structures',
 				// आवश्यकतानुसार और तकनीकों को जोड़ें
 			],
 			iconClass: 'mx-auto fab devicon-cplusplus-plain experience-icon',
