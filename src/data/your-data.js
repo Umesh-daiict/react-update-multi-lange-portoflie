@@ -714,19 +714,19 @@ export const resumeDataDummyHindi = {
 			],
 			iconClass: 'mx-auto fab devicon-angularjs-plain experience-icon',
 		},
-		{
-			company: 'डीए-आईआईसीटी',
-			title: 'समर रिसर्च इंटर्न',
-			years: 'मई 2020 - अगस्त 2020',
-			mainTech: ['C++'],
-			technologies: [
-				'Algorithms',
-				'Dynamic Programming',
-				'Data Structures',
-				// आवश्यकतानुसार और तकनीकों को जोड़ें
-			],
-			iconClass: 'mx-auto fab devicon-cplusplus-plain experience-icon',
-		},
+		// {
+		// 	company: 'डीए-आईआईसीटी',
+		// 	title: 'समर रिसर्च इंटर्न',
+		// 	years: 'मई 2020 - अगस्त 2020',
+		// 	mainTech: ['C++'],
+		// 	technologies: [
+		// 		'Algorithms',
+		// 		'Dynamic Programming',
+		// 		'Data Structures',
+		// 		// आवश्यकतानुसार और तकनीकों को जोड़ें
+		// 	],
+		// 	iconClass: 'mx-auto fab devicon-cplusplus-plain experience-icon',
+		// },
 		// आवश्यकतानुसार और अनुभव प्रविष्टियाँ जोड़ें
 	],
 };
