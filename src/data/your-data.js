@@ -339,23 +339,34 @@ export const sharedDataDummy = {
 				name: 'NextJs',
 				class: 'devicon-nextjs-original',
 				level: '65',
-			}, {
+			},
+			{
 				name: 'NodeJs',
 				class: 'devicon-nodejs-plain',
 				level: '65',
-			}, {
+			},
+			{
 				name: 'PostgreSQL',
 				class: 'devicon-postgresql-plain',
 				level: '65',
-			}, {
+			},
+
+			{
+				name: 'Git',
+				class: 'devicon-git-plain',
+				level: '65',
+			},
+			{
 				name: 'Redux',
 				class: 'devicon-redux-original',
 				level: '65',
-			}, {
+			},
+			{
 				name: 'Webpack',
 				class: 'devicon-webpack-plain',
 				level: '65',
-			}, {
+			},
+			{
 				name: 'TailwindCSS',
 				class: ' devicon-tailwindcss-plain',
 				level: '65',
@@ -390,7 +401,6 @@ export const sharedDataDummy = {
 			{
 				name: 'Google Cloud',
 				class: 'devicon-googlecloud-plain',
-				level: '65',
 			},
 			{
 				name: 'Git',
@@ -478,7 +488,7 @@ export const sharedDataDummy = {
 			// // "devicon-linux-plain"
 			// devicon - materialui - plain
 			// devicon - matlab - plain
-			// devicon - mongodb - plain		
+			// devicon - mongodb - plain
 			// devicon - svelte - plain
 			// "devicon-npm-original-wordmark"
 			// devicon - pandas - original
@@ -489,7 +499,6 @@ export const sharedDataDummy = {
 			// devicon - ubuntu - plain
 			// "devicon-vim-plain"
 			// devicon - sqlite - plain
-
 		],
 	},
 };
@@ -674,7 +683,7 @@ export const resumeDataDummyHindi = {
 			iconClass: 'mx-auto fab devicon-nextjs-original experience-icon',
 		},
 		{
-			company: 'अज्ञात कंपनी',
+			company: 'Hashtag infosys',
 			title: 'जूनियर सॉफ़्टवेयर डेवलपर',
 			years: 'सितंबर 2021 - फ़रवरी 2022',
 			mainTech: [
