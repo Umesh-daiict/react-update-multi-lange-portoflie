@@ -306,6 +306,16 @@ export const sharedDataDummy = {
 	skills: {
 		icons: [
 			{
+				name: 'NextJs',
+				class: 'devicon-nextjs-original',
+				level: '65',
+			},
+			{
+				name: 'React',
+				class: 'devicon-react-original',
+				level: '90',
+			},
+			{
 				name: 'HTML 5',
 				class: 'devicon-html5-plain',
 				level: '95',
@@ -315,11 +325,7 @@ export const sharedDataDummy = {
 				class: 'devicon-css3-plain',
 				level: '95',
 			},
-			{
-				name: 'React',
-				class: 'devicon-react-original',
-				level: '90',
-			},
+
 			{
 				name: 'Anguler',
 				class: 'devicon-angularjs-plain',
@@ -334,11 +340,6 @@ export const sharedDataDummy = {
 				name: 'JavaScript',
 				class: 'devicon-javascript-plain',
 				level: '70',
-			},
-			{
-				name: 'NextJs',
-				class: 'devicon-nextjs-original',
-				level: '65',
 			},
 			{
 				name: 'NodeJs',
