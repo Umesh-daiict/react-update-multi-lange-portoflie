@@ -315,6 +315,17 @@ export const sharedDataDummy = {
 				class: 'devicon-react-original',
 				level: '90',
 			},
+
+			{
+				name: 'TypeScript',
+				class: 'devicon-typescript-plain',
+				level: '90',
+			},
+			{
+				name: 'JavaScript',
+				class: 'devicon-javascript-plain',
+				level: '70',
+			},
 			{
 				name: 'HTML 5',
 				class: 'devicon-html5-plain',
@@ -329,17 +340,6 @@ export const sharedDataDummy = {
 			{
 				name: 'Anguler',
 				class: 'devicon-angularjs-plain',
-				level: '90',
-			},
-			{
-				name: 'TypeScript',
-				class: 'devicon-typescript-plain',
-				level: '90',
-			},
-			{
-				name: 'JavaScript',
-				class: 'devicon-javascript-plain',
-				level: '70',
 			},
 			{
 				name: 'NodeJs',
