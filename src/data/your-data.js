@@ -14,7 +14,8 @@ export const resumeDataDummy = {
 	projects: [
 		{
 			title: 'Fudu',
-			startDate: 'Jan. 2023',
+			startDate: 'Dec. 2022',
+			endDate: 'March 2023',
 			description:
 				'Collaborated closely with UI/UX designers to translate design mockups and wireframes into pixel-perfect frontend implementations with Mobile Responsive Web App to be used by Restaurant Owners to grow their business. Integrated third-party APIs and libraries, such as Google Maps, social media integrations (Apple and Google Login), seamlessly into the frontend, expanding the project’s functionalities and enhancing Restaurant Owner engagement to its customers. Implemented robust testing strategies, including unit testing using Jest and Enzyme, to ensure the reliability and stability of the frontend codebase, resulting in a more robust and bug-free application.',
 			images: [
@@ -56,8 +57,8 @@ export const resumeDataDummy = {
 		},
 		{
 			title: 'STEER.GLOBAL',
-			startDate: 'Jul. 2022',
-			endDate: 'Feb. 2023',
+			startDate: 'Feb. 2022',
+			endDate: 'Aug. 2022',
 			description:
 				'Worked as a software developer on a platform designed to safeguard students’ mental health. Contributed to the redesign of the platform to provide a better user experience. Implemented Redux States to manage application-wide state and reduced application load time to 1.5 seconds. Successfully migrated a medium-sized application from AngularJS to React within 3 months, despite limited resources due to unstable funding. Added features to manage student and teacher data, set permissions, and enable file upload/export capabilities for a school with a population of over 5000.',
 			images: [
@@ -201,7 +202,7 @@ export const resumeDataDummy = {
 		{
 			company: 'Octopus Technology',
 			title: 'Software Developer',
-			years: 'March 2022 - Present',
+			years: 'October 2022 - Present',
 			mainTech: ['React', 'TypeScript', 'TailwindCSS', 'Material UI'],
 			technologies: [
 				'Jest',
@@ -217,7 +218,7 @@ export const resumeDataDummy = {
 		{
 			company: 'Skyline Infosys',
 			title: 'Software Developer',
-			years: 'September 2021 - February 2022',
+			years: 'October 2021 - October 2022',
 			mainTech: ['Angular.js', 'React', 'Material-UI', 'React Bootstrap'],
 			technologies: [
 				'REST APIs',
@@ -521,7 +522,7 @@ export const resumeDataDummyHindi = {
 	projects: [
 		{
 			title: 'फुडू',
-			startDate: 'जनवरी 2023',
+			startDate: 'दिसम्बर  2023',
 			description:
 				'UI/UX डिज़ाइनर के साथ सख्त सहयोग करके डिज़ाइन मॉकअप और वायरफ़्रेम को पिक्सेल-पर-पिक्सेल फ्रंटएंड अमलीकरण में बदलने में मदद की गई, मोबाइल रिस्पॉन्सिव वेब ऐप्लिकेशन के साथ जिसे रेस्टोरेंट मालिक अपने व्यवसाय को बढ़ावा देने के लिए उपयोग कर सकते हैं। गूगल मैप्स, सोशल मीडिया एकीकरण (एप्पल और गूगल लॉगिन) जैसे थर्ड पार्टी एपीआई और पुस्तकालयों को बिना किसी समस्या के फ्रंटएंड में समाहित किया गया, परियोजना की क्षमताओं का विस्तार किया और रेस्टोरेंट मालिक को उनके ग्राहकों के साथ बेहतर संलग्नता प्रदान की। Jest और Enzyme का उपयोग करके इकाई परीक्षण के साथ मज़बूत परीक्षण रणनीतियों को लागू करके फ्रंटएंड कोडबेस की मज़बूती और स्थिरता सुनिश्चित की, जिससे एक और मज़बूत और बग-मुक्त एप्लिकेशन प्राप्त हुआ।',
 			images: [
@@ -563,8 +564,7 @@ export const resumeDataDummyHindi = {
 		},
 		{
 			title: 'स्टियर.ग्लोबल',
-			startDate: 'जुलाई 2022',
-			endDate: 'फ़रवरी 2023',
+			startDate: 'फ़रवरी 2022',
 			description:
 				'छात्रों के मानसिक स्वास्थ्य की सुरक्षा करने के लिए डिज़ाइन किए गए एक प्लेटफ़ॉर्म पर सॉफ़्टवेयर डेवलपर के रूप में काम किया। प्लेटफ़ॉर्म के पुनरावलोकन का योगदान दिया ताकि बेहतर उपयोगकर्ता अनुभव प्रदान किया जा सके। एप्लिकेशन-व्यापारिक राज्य का प्रबंधन करने के लिए Redux स्टेट्स को लागू किया और एप्लिकेशन लोड समय को 1.5 सेकंड में कम किया। स्थिर वित्तपोषण के कारण संकुचित संसाधनों के बावजूद, 3 महीने के भीतर एक माध्यम आकार के एप्लिकेशन को एंगुलरJs से React में सफलतापूर्वक प्रायोजित किया, जिसमें 5000 से अधिक छात्रों और शिक्षकों के डेटा का प्रबंधन करने के लिए विशेषताएँ जोड़ी गईं, अनुमतियों को सेट करने की अनुमति दी गई, और फ़ाइल अपलोड/निर्यात की क्षमताएँ सक्षम की गईं।',
 			images: [
@@ -620,11 +620,11 @@ export const resumeDataDummyHindi = {
 			],
 		},
 		{
-			title: 'इफ़को टोकियो',
-			startDate: 'मार्च 2021',
-			endDate: 'सितंबर 2021',
+			title: 'रेस्ट्रो',
+			startDate: 'मार्च 2023',
+			endDate: 'सितंबर 2023',
 			description:
-				'सॉफ़्टवेयर डेवलपर के रूप में, मैंने इफको-टोकियो ऐप पर काम किया, जिसमें पॉलिसीधारकों को मोटर, स्वास्थ्य, यात्रा, घर और व्यापार बीमा नीतियाँ खरीदने और नवीनीकरण करने की क्षमता प्रदान की गई। पिछले संस्करण की तुलना में दस गुना दस्तावेज़ों के प्रबंधन के लिए फ़ॉर्म और दस्तावेज़ सत्यापन सुविधाएँ लागू की गईं, ऐप्लिकेशन की कुल क्षमता को बेहतर बनाने के लिए कोडबेस से 3000 लाइन को कम किया गया। नीति प्रबंधन मान्यता प्रक्रिया का विकास और बनाए रखने, दस्तावेज़ प्रबंधन प्रक्रिया को संघटित करने, और कुल उपयोगकर्ता अनुभव को सुधारने के लिए कोडबेस से 3000 लाइन को कम किया गया।',
+				'सॉफ़्टवेयर डेवेलपर के रूप में, मुझे एक व्यापक रेस्टोरेंट मैनेजमेंट ऍप्लिकेशन में योगदान करने का सौभाग्य हुआ है, जिससे मैंने पूरी स्टैक डेवेलपमेंट और अनुकुलन रणनीतियों में अपनी विशेषज्ञता का प्रदर्शन किया है। इस परियोजना ने मेरी क्षमता को प्रदर्शित किया है कि मैं कैसे कुशलता से बैकएंड सिस्टम और यूजर-फ्रेंडली फ्रंटएंड इंटरफेस बना सकता हूँ ताकि रेस्तरां का अनुभव बेहतर हो। मैंने Node.js का उपयोग करके एक मजबूत बैकएंड संरचना बनाई, जिससे ग्राहक के आर्डर प्रोसेसिंग, टेबल और फूड आइटम का प्रबंधन, और वास्तविक समय में ऑर्डर ट्रैकिंग सुविधाएं स्वरूपित हो सकती हैं। फ्रंटएंड में एक इंटरऐक्टिव यूजर इंटरफेस शामिल थी जिसमें टेबल बुकिंग, फूड सिलेक्शन, और बिल प्रिंटिंग जैसी सुविधाएं थीं। मैंने उपयोगकर्ता अनुभव को प्राथमिकता दी, सुनिश्चित करते हुए कि ग्राहक एप्लिकेशन को आसानी से नेविगेट कर सकते हैं।',
 			images: [
 				require('../assets/images/portfolio/project-img/p3/1.png'),
 				require('../assets/images/portfolio/project-img/p3/2.png'),
@@ -641,7 +641,7 @@ export const resumeDataDummyHindi = {
 				require('../assets/images/portfolio/project-img/p3/13.png'),
 				require('../assets/images/portfolio/project-img/p3/14.png'),
 			],
-			url: 'https://sso.iffcotokio.co.in/siebel',
+			url: 'https://restrocrm.com/',
 			technologies: [
 				{
 					class: 'devicon-typescript-plain',
@@ -670,74 +670,53 @@ export const resumeDataDummyHindi = {
 	],
 	experience: [
 		{
-			company: 'स्काईलाइन इन्फोसिस',
-			title: 'सॉफ़्टवेयर डेवलपर',
-			years: 'मार्च 2022 - वर्तमान',
-			mainTech: ['React', 'Typescript', 'TailwindCSS', 'Material UI'],
+			company: 'ऑक्टोपस टेक्नोलॉजी',
+			title: 'सॉफ़्टवेयर डेवेलपर',
+			years: 'अक्टूबर 2022 - वर्तमान',
+			mainTech: ['रियैक्ट', 'टाइपस्क्रिप्ट', 'टेलविंडसीएस', 'मैटेरियल यूआई'],
 			technologies: [
-				'Redux',
-				'Google API',
-				'MySQL',
-				'PostgreSQL',
-				// आवश्यकतानुसार और तकनीकों को जोड़ें
+				'जेस्ट',
+				'रीडक्स',
+				'गूगल एपीआई',
+				'नोड.जेएस',
+				'फीबीमायड्मिन',
+				'फ़ायरबेस',
+				// आवश्यकता के हिसाब से और तकनीकों को जोड़ें
 			],
 			iconClass: 'mx-auto fab devicon-nextjs-original experience-icon',
 		},
 		{
-			company: 'Hashtag infosys',
-			title: 'जूनियर सॉफ़्टवेयर डेवलपर',
-			years: 'सितंबर 2021 - फ़रवरी 2022',
+			company: 'स्काईलाइन इन्फोसिस',
+			title: 'सॉफ़्टवेयर डेवेलपर',
+			years: 'अक्टूबर 2021 - अक्टूबर 2022',
 			mainTech: [
-				'Node.Js',
-				'Express',
-				'Material-UI',
-				'Formik',
-				'React bootstrap ',
-				'Antd',
+				'एंगुलर.जेएस',
+				'रियैक्ट',
+				'मैटेरियल-यूआई',
+				'रियैक्ट बूटस्ट्रैप',
 			],
 			technologies: [
-				'REST API',
-				'React',
-				'Material-UI',
-				'Formik',
-				'React bootstrap ',
-				'Antd',
-				'CI/CD',
-				// आवश्यकतानुसार और तकनीकों को जोड़ें
+				'रेस्ट एपीआई',
+				'मैटेरियल-यूआई',
+				'फॉर्मिक',
+				'रियैक्ट बूटस्ट्रैप',
+				'एंटीडी',
+				'सीआई/सीडी',
+				'टेलविंड सीएसएस',
+				'एचटीएमएल 5',
+				'सीएसएस 3',
+				'एंगुलर फॉर्म्स',
+				'एंगुलर एचटीटीपी',
+				'एंगुलर मैटेरियल',
+				'बूटस्ट्रैप',
+				// 'चार्ट.जेएस',
+				// 'मोमेंट.जेएस',
+				// 'फॉन्टअवेसम',
+				// आवश्यकता के हिसाब से और तकनीकों को जोड़ें
 			],
-
-			iconClass: 'fab fa-react  mx-auto experience-icon',
+			iconClass: 'fa-react fab mx-auto experience-icon',
 		},
-		{
-			company: 'क्लोमोटेक',
-			title: 'सॉफ़्टवेयर इंजीनियर इंटर्न',
-			years: 'मार्च 2021 - सितंबर 2021',
-			mainTech: ['Angular 6'],
-			technologies: [
-				'Angular Form',
-				'Angular Http',
-				'Angular material',
-				'bootstrap ',
-				'Chart.Js',
-				'Moment.Js',
-				// आवश्यकतानुसार और तकनीकों को जोड़ें
-			],
-			iconClass: 'mx-auto fab devicon-angularjs-plain experience-icon',
-		},
-		// {
-		// 	company: 'डीए-आईआईसीटी',
-		// 	title: 'समर रिसर्च इंटर्न',
-		// 	years: 'मई 2020 - अगस्त 2020',
-		// 	mainTech: ['C++'],
-		// 	technologies: [
-		// 		'Algorithms',
-		// 		'Dynamic Programming',
-		// 		'Data Structures',
-		// 		// आवश्यकतानुसार और तकनीकों को जोड़ें
-		// 	],
-		// 	iconClass: 'mx-auto fab devicon-cplusplus-plain experience-icon',
-		// },
-		// आवश्यकतानुसार और अनुभव प्रविष्टियाँ जोड़ें
+		// आवश्यकता के हिसाब से और अनुभव प्रविष्टियों को जोड़ें
 	],
 };
 
