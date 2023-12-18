@@ -7,26 +7,25 @@ const Connect = () => {
         message: '',
     });
     const handleChange = (e) => {
-        const { name, value } = e.target;
-        setFormData({
-            ...formData,
-            [name]: value,
-        });
-    };
-    console.log('aaaaaaaa', formData);
-    const handleSendEmail = (e) => {
-        e.preventDefault();
+			const { name, value } = e.target;
+			setFormData({
+				...formData,
+				[name]: value,
+			});
+		};
+		const handleSendEmail = (e) => {
+			e.preventDefault();
 
-        const recipient = 'aaa@yopmail.com';
-        const subject = encodeURIComponent(formData.title);
-        const body = encodeURIComponent(formData.message);
+			const recipient = 'umeshsavaliya777@gmail.com';
+			const subject = encodeURIComponent(formData.title);
+			const body = encodeURIComponent(formData.message);
 
-        // Construct the mailto link with subject and body
-        const mailtoLink = `mailto:${recipient}?subject=${subject}&body=${body}`;
+			// Construct the mailto link with subject and body
+			const mailtoLink = `mailto:${recipient}?subject=${subject}&body=${body}`;
 
-        // Open the user's default email client with the mailto link
-        window.location.href = mailtoLink;
-    };
+			// Open the user's default email client with the mailto link
+			window.location.href = mailtoLink;
+		};
     return (
         <section id='about'>
             <div className='col-md-12 mx-auto'>
