@@ -255,7 +255,7 @@ export const resumeDataDummy = {
 				'Postman',
 				// Add more technologies as needed
 			],
-			iconClass: 'mx-auto fab devicon-angularjs-plain experience-icon',
+			iconClass: 'mx-auto fab devicon-nodejs-plain experience-icon',
 		},
 		{
 			company: 'Clomotech technologies pvt ltd',
