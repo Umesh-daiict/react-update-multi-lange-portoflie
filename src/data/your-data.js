@@ -3,7 +3,7 @@ export const resumeDataDummy = {
 		dev_name: 'Umesh Savaliya',
 		description_header: 'Hi',
 		description:
-			"👋 I'm Umesh Savaliya. I'm a Software Developer with experience in working with front-end frameworks like React, Angular, and TypeScript. I have a passion for creating user-friendly web applications and solving complex problems. Feel free to reach out to me at  umeshsavaliya777@gmail.com. You can also find me on LinkedIn at linkedin.com/in/umesh-savaliya and check out my GitHub at github.com/Umesh-daiict. Thank you! 💜",
+			"👋 I'm Umesh Savaliya. I'm a Software Developer with experience in working with front-end frameworks like React, Angular, and TypeScript. I have a passion for creating user-friendly web applications and solving complex problems. Feel free to reach out to me at  umeshsavaliya007@gmail.com. You can also find me on LinkedIn at linkedin.com/in/umesh-savaliya and check out my GitHub at github.com/Umesh-daiict. Thank you! 💜",
 		section_name: {
 			about: 'About me',
 			projects: 'Projects',
@@ -242,36 +242,39 @@ export const resumeDataDummy = {
 
 			iconClass: 'fa-react fab  mx-auto experience-icon',
 		},
-		// {
-		// 	company: 'Skyline Infosys',
-		// 	title: 'Software Engineer Intern',
-		// 	years: 'March 2021 - September 2021',
-		// 	mainTech: ['Angular 6'],
-		// 	technologies: [
-		// 		'Angular Forms',
-		// 		'Angular HTTP',
-		// 		'Angular Material',
-		// 		'Bootstrap',
-		// 		'Chart.js',
-		// 		'moment.js',
-		// 		'Fontawesome',
-		// 		// Add more technologies as needed
-		// 	],
-		// 	iconClass: 'mx-auto fab devicon-angularjs-plain experience-icon',
-		// },
-		// {
-		// 	company: 'DA-IICT',
-		// 	title: 'Summer Research Intern',
-		// 	years: 'May 2020 - August 2020',
-		// 	mainTech: ['C++'],
-		// 	technologies: [
-		// 		'CYK Algorithm',
-		// 		'Dynamic Programming',
-		// 		'Chomsky Normal Form (CNF)',
-		// 		// Add more technologies as needed
-		// 	],
-		// 	iconClass: 'mx-auto  devicon-cplusplus-plain fab  experience-icon',
-		// },
+		{
+			company: 'Skyline Infosys',
+			title: 'Software Engineer Intern',
+			years: 'May 2021 - October 2021',
+			mainTech: ['NodeJS'],
+			technologies: [
+				'PostgreSQL',
+				'Express.js',
+				'JSON Web Token (JWT)',
+				'REST APIs',
+				'Postman',
+				// Add more technologies as needed
+			],
+			iconClass: 'mx-auto fab devicon-angularjs-plain experience-icon',
+		},
+		{
+			company: 'Clomotech technologies pvt ltd',
+			title: 'Software Engineer Intern',
+			years: 'October 2020 - March 2021',
+			mainTech: ['Angular'],
+			technologies: [
+				'NgRx',
+				'TypeScript',
+				'Angular reactive Forms',
+				'Angular HTTP',
+				'Angular Material',
+				'Bootstrap',
+				'Fontawesome',
+				// Add more technologies as needed
+			],
+			iconClass: 'mx-auto fab devicon-angularjs-plain experience-icon',
+		},
+
 		// Add more experience entries as needed
 	],
 };
@@ -511,7 +514,7 @@ export const resumeDataDummyHindi = {
 		dev_name: 'उमेश सावलिया',
 		description_header: 'नमस्ते',
 		description:
-			'👋 मैं उमेश सावलिया हूँ। मैं एक सॉफ़्टवेयर डेवलपर हूँ जिनका अनुभव फ्रंट-एंड फ़्रेमवर्क React, Angular, और TypeScript के साथ काम करने में है। मुझे उपयोगकर्ता-मित्रपूर्ण वेब ऐप्लिकेशन बनाने और जटिल समस्याओं का समाधान करने में रुचि है। मेरे से  umeshsavaliya777@gmail.com पर संपर्क करने के लिए मुक्त हों। आप मुझे linkedin.com/in/umesh-savaliya पर भी मिल सकते हैं और मेरे GitHub पर github.com/Umesh-daiict जांच सकते हैं। धन्यवाद! 💜',
+			'👋 मैं उमेश सावलिया हूँ। मैं एक सॉफ़्टवेयर डेवलपर हूँ जिनका अनुभव फ्रंट-एंड फ़्रेमवर्क React, Angular, और TypeScript के साथ काम करने में है। मुझे उपयोगकर्ता-मित्रपूर्ण वेब ऐप्लिकेशन बनाने और जटिल समस्याओं का समाधान करने में रुचि है। मेरे से  umeshsavaliya007@gmail.com पर संपर्क करने के लिए मुक्त हों। आप मुझे linkedin.com/in/umesh-savaliya पर भी मिल सकते हैं और मेरे GitHub पर github.com/Umesh-daiict जांच सकते हैं। धन्यवाद! 💜',
 		section_name: {
 			about: 'मेरे बारे में',
 			projects: 'प्रोजेक्ट्स',

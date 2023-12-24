@@ -31,14 +31,12 @@ const App = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pickLang]);
   const downloadFile = () => {
-    const fileURL = require('./assets/files/cv_2.pdf');
-    console.log(fileURL, process.env.PUBLIC_URL
-    );
-    const link = document.createElement('a');
-    link.href = fileURL;
-    link.download = 'cv_2.pdf';
-
-    // link.click();
+    const fileURL = require('./assets/files/umesh_cv.pdf');
+		console.log(fileURL, process.env.PUBLIC_URL);
+		const link = document.createElement('a');
+		link.href = fileURL;
+		link.download = 'umesh_cv.pdf';
+		link.click();
   };
 
   return (

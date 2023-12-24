@@ -16,7 +16,7 @@ const Connect = () => {
 		const handleSendEmail = (e) => {
 			e.preventDefault();
 
-			const recipient = 'umeshsavaliya777@gmail.com';
+			const recipient = 'umeshsavaliya007@gmail.com';
 			const subject = encodeURIComponent(formData.title);
 			const body = encodeURIComponent(formData.message);
 
